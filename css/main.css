@@ -20,16 +20,21 @@ nav{
 }
 
 .introduction{
+  display: flex;
+  justify-content: center;
   background-color: green;
+  padding: 1rem;
 }
 
-/*.introduction__text{
-  float:left;
+.introduction__text{
+  padding:0.5rem;
 }
 
-.introduction__image{
-  float:right;
-}*/
+.introduction__text p{
+  justify-content: center;
+}
+
+
 
 .nora_img{
   border-radius: 50%;
