@@ -1,3 +1,24 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+nav{
+  padding:.75rem;
+  background-color: orange;
+}
+.navbar__list{
+  list-style-type: none;
+}
+
+.navbar__list__item{
+  display:inline;
+}
+
+.navbar__list__item a{
+  text-decoration: none;
+}
+
 .contact__list{
   list-style-type: none;
 }
@@ -17,4 +38,5 @@
 footer{
   text-align: center;
   padding: 1.5rem;
+  background-color: yellow;
 }
