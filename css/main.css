@@ -1,0 +1,14 @@
+.contact__list{
+  list-style-type: none;
+}
+
+.contact__list__item{
+  display: inline;
+}
+
+.contact__list__item a{
+}
+
+.contact__list__item a:hover{
+  color:orange;
+}
