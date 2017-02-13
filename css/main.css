@@ -6,9 +6,15 @@
   display: inline;
 }
 
-.contact__list__item a{
+.contact__list__item > a > img{
+  height: 1.25rem;
 }
 
 .contact__list__item a:hover{
   color:orange;
+}
+
+footer{
+  text-align: center;
+  padding: 1.5rem;
 }
