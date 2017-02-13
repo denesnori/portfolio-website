@@ -19,6 +19,28 @@ nav{
   text-decoration: none;
 }
 
+.introduction{
+  background-color: green;
+}
+
+/*.introduction__text{
+  float:left;
+}
+
+.introduction__image{
+  float:right;
+}*/
+
+.nora_img{
+  border-radius: 50%;
+  height: 12rem;
+
+}
+
+.contact{
+  background-color: red;
+}
+
 .contact__list{
   list-style-type: none;
 }
