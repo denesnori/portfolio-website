@@ -6,23 +6,37 @@ body{
 h1,h2,h3,h4,h5{
   margin:0;
 }
-.navbar{
+.header{
   padding:.75rem;
   background-color: white;
   color: #051F59;
-/*  position: fixed;
+/*  position: fixed;*/
   width:100%;
   top:0;
-  z-index: 50;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*  z-index: 50;*/
 }
 
+
+.header__details{
+  display: inline-block;
+}
+
+.header__img{
+  display: inline-block;
+}
+.navbar{
+  float:right;
+}
 
 .navbar__list{
   list-style-type: none;
 }
 
 .navbar__list__item{
-  display:inline;
+  display:inline-block;
 }
 
 .navbar__list__item a{
