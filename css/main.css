@@ -6,7 +6,8 @@ body{
 
 .navbar{
   padding:.75rem;
-  background-color: orange;
+  background-color: white;
+  color: #051F59;
 /*  position: fixed;
   width:100%;
   top:0;
@@ -28,6 +29,7 @@ body{
 
 .introduction{
   display: flex;
+  align-items: center;
   justify-content: center;
   /*background-color: green;*/
   background-image: url("../imgs/temp_background2.jpg");
@@ -40,12 +42,15 @@ body{
   height:17rem;
 }
 
-.introduction__text{
-  padding:0.5rem;
+.introduction__message{
+  width:50%;
 }
 
-.introduction__text p{
-  justify-content: center;
+.introduction__message p{
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
 }
 
 
@@ -53,14 +58,14 @@ body{
 .nora_img{
   border-radius: 50%;
   height: 12rem;
-
+  padding: 0.5rem;
 }
 
 .left{
   float:left;
 }
 .contact{
-  background-color: red;
+  background-color: #FFC551;
 }
 
 .contact__list{
@@ -82,5 +87,6 @@ body{
 footer{
   text-align: center;
   padding: 1.5rem;
-  background-color: yellow;
+  color: white;
+  background-color: #008080;
 }
