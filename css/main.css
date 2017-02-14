@@ -3,7 +3,9 @@ body{
   padding:0;
   box-sizing: border-box;
 }
-
+h1,h2,h3,h4,h5{
+  margin:0;
+}
 .navbar{
   padding:.75rem;
   background-color: white;
@@ -45,13 +47,7 @@ body{
 .introduction__message{
   width:50%;
 }
-.contact__icon{
-  height: 5rem;
 
-}
-.contact__icon:hover{
-  border-radius: 50%;
-}
 .introduction__message p{
   padding: 0.5rem;
   font-size: 2rem;
@@ -70,10 +66,25 @@ body{
 .left{
   float:left;
 }
+
+.left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .contact{
   background-color: #FFC551;
+  padding: 0.5rem;
 }
 
+.contact__icon{
+  height: 5rem;
+  border-radius: 15%;
+
+}
+.contact__icon:hover{
+  border-radius: 50%;
+}
 .contact__list{
   list-style-type: none;
 }
