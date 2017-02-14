@@ -13,7 +13,7 @@ nav ul li  {
     ul {
       border-bottom: 1px solid #ccc;
       list-style: none;
-      margin: 0 0 1.5rem 0;
+      /*margin: 0 0 1.5rem 0;*/
       padding: 0;
     }
     li {
@@ -42,7 +42,7 @@ nav ul li  {
         padding: 1rem 0;
         transition: all .25s ease-in-out;
       }
-    
+
 
 /*Test ends*/
 
