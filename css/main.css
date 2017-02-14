@@ -67,14 +67,23 @@ h1,h2,h3,h4,h5{
   float:left;
 }
 
-.left{
+.left,.icon{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.info__text{
+  text-align: center;
+}
 .contact{
   background-color: #FFC551;
   padding: 0.5rem;
+  text-align: center;
+}
+
+.contact h2,h4{
+  padding:0.5rem;
 }
 
 .contact__icon{
