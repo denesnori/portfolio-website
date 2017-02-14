@@ -4,10 +4,16 @@ body{
   box-sizing: border-box;
 }
 
-nav{
+.navbar{
   padding:.75rem;
   background-color: orange;
+/*  position: fixed;
+  width:100%;
+  top:0;
+  z-index: 50;*/
 }
+
+
 .navbar__list{
   list-style-type: none;
 }
@@ -23,8 +29,15 @@ nav{
 .introduction{
   display: flex;
   justify-content: center;
-  background-color: green;
+  /*background-color: green;*/
+  background-image: url("../imgs/temp_background2.jpg");
+  /*Crate the parallax scrolling effect*/
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
   padding: 1rem;
+  height:17rem;
 }
 
 .introduction__text{
