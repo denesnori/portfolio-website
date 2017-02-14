@@ -63,6 +63,22 @@ h1,h2,h3,h4,h5{
   padding: 0.5rem;
 }
 
+.about_me{
+  padding:0.5rem;
+  text-align:center;
+  background-color:#0F368F;
+  color: white;
+}
+
+#fac-link{
+  text-decoration: none;
+  color:#FBB220;
+}
+
+#fac-link:hover{
+  color:#FB8320;
+}
+
 .left{
   float:left;
 }
