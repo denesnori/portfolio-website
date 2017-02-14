@@ -45,7 +45,13 @@ body{
 .introduction__message{
   width:50%;
 }
+.contact__icon{
+  height: 5rem;
 
+}
+.contact__icon:hover{
+  border-radius: 50%;
+}
 .introduction__message p{
   padding: 0.5rem;
   font-size: 2rem;
