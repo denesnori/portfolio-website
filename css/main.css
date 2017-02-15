@@ -157,8 +157,13 @@ h1,h2,h3,h4,h5{
 }
 
 /*Interests*/
-.interests{
+.interests_div{
   background-color: #33A0A0;
+}
+
+.interests__image img{
+  height:5rem;
+  border-radius: 10%;
 }
 /*Contacts*/
 .contact{
