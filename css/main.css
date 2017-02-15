@@ -1,0 +1,284 @@
+
+/*TEST*/
+nav{    width: 100%;}
+  nav ul {
+    display: flex;
+  }
+
+nav ul li  {
+      flex-grow: 1;
+    }
+
+
+    ul {
+      border-bottom: 1px solid #ccc;
+      list-style: none;
+      /*margin: 0 0 1.5rem 0;*/
+      padding: 0;
+    }
+    li {
+      background-image: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgba(51,160,160, 1) 50%,
+        rgba(51,160,160,1) 95%,
+        rgba(0,104,104,1) 95%
+      );
+      background-size: 100% 200%;
+      background-position: top center;
+      color: #666;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      transition: all .25s ease-in-out;
+    }
+      li:hover {
+        background-position: bottom center;
+        color: rgba(0,0,0,.75);
+      }
+      li a {
+        color: #051F59;
+        font-weight: 800;
+        display: block;
+        padding: 1rem 0;
+        transition: all .25s ease-in-out;
+      }
+
+
+/*Test ends*/
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5{
+  margin:0;
+}
+
+p{
+  font-size: 1.125rem;
+}
+.header{
+  padding:.75rem;
+  background-color: white;
+  color: #051F59;
+/*  position: fixed;*/
+  width:100%;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*  z-index: 50;*/
+}
+
+
+.header__details{
+  display: inline-block;
+}
+
+.header__img{
+  display: inline-block;
+}
+.navbar{
+  float:right;
+}
+
+.navbar__list{
+  list-style-type: none;
+}
+
+.navbar__list__item{
+  display:inline-block;
+}
+
+.navbar__list__item a{
+  text-decoration: none;
+}
+
+.introduction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: green;*/
+  background-image: url("../imgs/temp_background2.jpg");
+  /*Crate the parallax scrolling effect*/
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  padding: 1rem;
+  height:17rem;
+}
+
+.introduction__message{
+  width:50%;
+}
+
+.introduction__message p{
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+}
+
+
+
+.nora_img{
+  border-radius: 50%;
+  height: 12rem;
+  padding: 0.5rem;
+}
+
+.about_me{
+  padding:0.5rem;
+  text-align:center;
+  background-color:#0F368F;
+  color: white;
+}
+
+#fac-link{
+  text-decoration: none;
+  color:#FBB220;
+}
+
+#fac-link:hover{
+  color:#FB8320;
+}
+
+.left{
+  float:left;
+}
+
+.left,.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__text{
+  text-align: center;
+}
+
+/*Interests*/
+.interests_div{
+  background-color: #33A0A0;
+  /*padding: 0.75rem;*/
+  box-sizing: border-box;
+}
+.cards__div{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+width: 350px;
+border: 1px solid gray;
+box-shadow: 1px 1px 3px #888;
+border-top: 10px solid rgba(0,104,104,1);
+background-color: white;
+border-radius: 10%;
+min-height: 250px;
+padding-: 10px;
+margin: 10px;
+}
+
+.card img{
+  width: 70px;
+  margin: 10px;
+}
+
+.card h1{
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-top: -70px;
+  font-size: 1.75rem;
+}
+
+.card p{
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}
+
+/*Again!!!*/
+
+/*.row{
+  padding:0.5rem;
+  clear:both;
+}
+
+.card{
+  box-sizing: border-box;
+  padding:0.5rem;
+}
+
+.interests{
+  float:left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  background-color: white;
+}
+.interests__image img{
+/*  height:5rem;*/
+/*  height:7rem;
+  border-radius: 10%;
+  display: block;
+
+}
+
+.interests__image{
+  float:left;
+}
+.interests__text{
+  float:left;
+}*/
+/*Contacts*/
+.contact{
+  background-color: #FFC551;
+  padding: 0.5rem;
+  text-align: center;
+
+}
+
+.contact h2,h4{
+  padding:0.5rem;
+}
+
+.contact__icon{
+  height: 5rem;
+  border-radius: 15%;
+
+}
+.contact__icon:hover{
+  border-radius: 50%;
+}
+.contact__list{
+  list-style-type: none;
+}
+
+.contact__list__item{
+  display: inline;
+}
+
+.contact__list__item > a > img{
+  height: 1.25rem;
+}
+
+.contact__list__item a:hover{
+  color:orange;
+}
+
+footer{
+  text-align: center;
+  padding: 1.5rem;
+  color: white;
+  background-color: #008080;
+}
