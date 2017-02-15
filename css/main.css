@@ -55,6 +55,10 @@ body{
 h1,h2,h3,h4,h5{
   margin:0;
 }
+
+p{
+  font-size: 1.125rem;
+}
 .header{
   padding:.75rem;
   background-color: white;
@@ -159,17 +163,38 @@ h1,h2,h3,h4,h5{
 /*Interests*/
 .interests_div{
   background-color: #33A0A0;
+  /*padding: 0.75rem;*/
 }
 
+
+.interests{
+  float:left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .interests__image img{
-  height:5rem;
+/*  height:5rem;*/
+  height:7rem;
   border-radius: 10%;
+  display: block;
+
+}
+
+.interests__image{
+  float:left;
+}
+.interests__text{
+  float:left;
 }
 /*Contacts*/
 .contact{
   background-color: #FFC551;
   padding: 0.5rem;
   text-align: center;
+
 }
 
 .contact h2,h4{
