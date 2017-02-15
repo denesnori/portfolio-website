@@ -9,21 +9,70 @@
   flex-wrap: wrap;
 }
 
+#html5{
+  border-radius: 50%;
+}
+
+#nodeJS{
+  height:auto;
+  width: auto;
+  max-width: 50rem;
+  max-height: 15rem;
+}
+
+#flat{
+  height: auto;
+   width: auto;
+   max-width: 500px;
+   max-height: 250px;
+  box-shadow: 0 9px 15px grey;
+}
+
+.technologies__list{
+  list-style-type: none;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.technologies__item{
+  text-decoration: none;
+  background-color: rgba(0,104,104,1) ;
+  color: white;
+  padding:0.5rem;
+}
+
 .wrapper{
   padding:0.75rem;
 }
 
 .project{
   background: white;
-  width: 450px;
+  width: 800px;
+  padding:0.75rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.project__text{
   padding:0.5rem;
 }
 
-.projects__img{
-  width: 100%;
-  height: 200px;
-  margin-bottom: 10px;
-  box-shadow: 0 9px 15px $grey;
+.icon_container img{
+  display: inline-block;
+  height:auto;
+  width: auto;
+  max-width: 5rem;
+  /*max-height: 10rem;*/
+}
+
+.project > img{
+  height: auto;
+   width: auto;
+   max-width: 200px;
+   max-height: 400px;
+  box-shadow: 0 9px 15px grey;
 }
 /*TEST*/
 nav{    width: 100%;}
@@ -42,7 +91,7 @@ nav ul li  {
       /*margin: 0 0 1.5rem 0;*/
       padding: 0;
     }
-    li {
+    >li {
       background-image: linear-gradient(
         to bottom,
         transparent 50%,
@@ -58,7 +107,7 @@ nav ul li  {
       text-decoration: none;
       transition: all .25s ease-in-out;
     }
-      li:hover {
+    >  li:hover {
         background-position: bottom center;
         color: rgba(0,0,0,.75);
       }
