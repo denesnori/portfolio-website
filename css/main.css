@@ -164,8 +164,57 @@ p{
 .interests_div{
   background-color: #33A0A0;
   /*padding: 0.75rem;*/
+  box-sizing: border-box;
+}
+.cards__div{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+.card{
+width: 350px;
+border: 1px solid gray;
+box-shadow: 1px 1px 3px #888;
+border-top: 10px solid rgba(0,104,104,1);
+background-color: white;
+border-radius: 10%;
+min-height: 250px;
+padding-: 10px;
+margin: 10px;
+}
+
+.card img{
+  width: 70px;
+  margin: 10px;
+}
+
+.card h1{
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-top: -70px;
+  font-size: 1.75rem;
+}
+
+.card p{
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}
+
+/*Again!!!*/
+
+/*.row{
+  padding:0.5rem;
+  clear:both;
+}
+
+.card{
+  box-sizing: border-box;
+  padding:0.5rem;
+}
 
 .interests{
   float:left;
@@ -174,10 +223,12 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5%;
+  background-color: white;
 }
 .interests__image img{
 /*  height:5rem;*/
-  height:7rem;
+/*  height:7rem;
   border-radius: 10%;
   display: block;
 
@@ -188,7 +239,7 @@ p{
 }
 .interests__text{
   float:left;
-}
+}*/
 /*Contacts*/
 .contact{
   background-color: #FFC551;
