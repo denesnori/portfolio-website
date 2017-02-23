@@ -1,0 +1,52 @@
+/*Contacts*/
+.contact{
+  background-color: #FFC551;
+  padding: 0.5rem;
+  text-align: center;
+
+}
+
+.contact h2,h4{
+  padding:0.5rem;
+}
+
+.info{
+  padding:1rem;
+}
+
+.contact__icons{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact__icon{
+  height: 5rem;
+  border-radius: 15%;
+
+}
+.contact__icon:hover{
+  border-radius: 50%;
+}
+.contact__list{
+  list-style-type: none;
+}
+
+.contact__list__item{
+  display: inline;
+}
+
+.contact__list__item > a > img{
+  height: 1.25rem;
+}
+
+.contact__list__item a:hover{
+  color:orange;
+}
+
+footer{
+  text-align: center;
+  padding: 1.5rem;
+  color: white;
+  background-color: #008080;
+}

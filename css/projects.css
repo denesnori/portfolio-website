@@ -1,0 +1,78 @@
+/*Interests*/
+
+html,body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.interests_div{
+  background-color: #99004D;
+  /*padding: 0.75rem;*/
+  box-sizing: border-box;
+}
+.cards__div{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+width: 550px;
+border: 1px solid #7d8084;
+box-shadow: 1px 1px 3px #888;
+background-color: white;
+min-height: 350px;
+padding: 0.5rem;
+margin: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+.projects__card{
+  border-top: 10px solid #0A2A74;
+  border-radius: 7.5%;
+}
+
+.card__image{
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__content{
+  padding: 0.5rem;
+
+}
+
+.portrait{
+    max-height: 350px;
+    width:auto;
+  box-shadow: 0 0.5rem 0.8rem grey;
+}
+
+.landscape{
+  height: auto;
+  max-width:300px;
+  box-shadow: 0 0.5rem 0.8rem grey;
+}
+
+.button {
+  background-color: #051F59;
+  border-radius: 5px;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.button:focus,
+.button:hover {
+  background-color:#254CA8;
+}
+
+@media screen and (max-width:680px) {
+  .card{
+    flex-direction: column;
+  }
+}

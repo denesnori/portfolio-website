@@ -1,0 +1,46 @@
+/*Interests*/
+.interests_div{
+  background-color: #33A0A0;
+  /*padding: 0.75rem;*/
+  box-sizing: border-box;
+}
+.cards__div{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+width: 350px;
+border: 1px solid gray;
+box-shadow: 1px 1px 3px #888;
+background-color: white;
+min-height: 250px;
+padding-: 10px;
+margin: 10px;
+}
+
+.interests_card{
+  border-top: 10px solid rgba(0,104,104,1);
+  border-radius: 10%;
+}
+
+.card img{
+  width: 70px;
+  margin: 10px;
+}
+
+.card h1{
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-top: -70px;
+  font-size: 1.75rem;
+}
+
+.card p{
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+}

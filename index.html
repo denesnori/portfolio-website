@@ -2,10 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width"/>
     <link rel="icon" href="./imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css" media="all" title="no title">
-    <link rel="stylesheet" href="./css/grid.css" media="all" title="no title">
+    <link rel="stylesheet" href="./css/navbar.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./css/contacts.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./css/interests.css" media="screen" title="no title">
+    <!--<link rel="stylesheet" href="./css/projects.css" media="screen" title="no title">-->
     <link rel="stylesheet" href="https://use.fontawesome.com/dab6567ebf.css" media="all">
     <link rel="stylesheet" href="./css/normalize.css" media="screen" title="no title">
     <title>Nora Denes | Web Developer | Portfolio | Contact</title>
@@ -13,14 +17,14 @@
   <body>
     <!--navbar-->
   <header class="header">
-    <div class="header__logo col-4 col-m-4">
+    <div class="header__logo">
         <img class="header__img" src="./imgs/logo.png" alt="monogram" />
       <div class="header__details ">
         <h1 class="header__name">Nóra Dénes</h1>
         <h4 class="header__title"> Full-stack developer</h4>
       </div>
     </div>
-    <nav  class="navbar col-8 col-m-8">
+    <nav  class="navbar">
         <ul class="navbar__list topnav" id="myTopnav">
           <li class="navbar__list__item">
             <a href="#about_me">About me</a>
@@ -63,8 +67,13 @@
 
         </p>
     </div>
+    <!--Projects again!-->
+    <div class="projects" >
+      <h2>Projects I worked on</h2>
+
+    </div>
     <!--Proects-->
-    <div class="projects" id="projects">
+<!--    <div class="projects" id="projects">
       <h2>Projects I worked on</h2>
       <div class="projects__container">
         <div class="wrapper">
@@ -152,13 +161,13 @@
         </div>
       </div>
       </div>
-    </div>
+    </div>-->
     <!--Interests-->
     <div class="interests_div" id="interests">
       <h2>Interests</h2>
       <h4>What I am up to If not coding?</h4>
       <div class="cards__div">
-      <div class="card">
+      <div class="card interests_card">
         <img src="./imgs/meetup.png" alt="" />
         <h1>Meetups</h1>
         <p>
@@ -167,7 +176,7 @@
           wanting to do something good or just improve their knowledge.
         </p>
       </div>
-      <div class="card">
+      <div class="card interests_card">
         <img src="./imgs/code_your_future.png" alt="" />
         <h1>Code Your Future</h1>
         <p>
@@ -176,7 +185,7 @@
           to deliver their backend module.
         </p>
       </div>
-      <div class="card">
+      <div class="card interests_card">
         <img src="./imgs/volunteer.jpg" alt="" />
         <h1>Volunteering</h1>
         <p>
@@ -186,7 +195,7 @@
             and <a href="https://odsc.com/london">ODSC London</a>.
         </p>
       </div>
-      <div class="card">
+      <div class="card interests_card">
         <img src="./imgs/hiking.jpg" alt="" />
         <h1>Hiking</h1>
         <p>
@@ -196,7 +205,7 @@
           West Highland Way.
         </p>
       </div>
-      <div class="card">
+      <div class="card interests_card">
           <img src="./imgs/tennis_logo.png" alt="" />
         <h1>Tennis</h1>
         <p>
@@ -206,7 +215,7 @@
           It was a dream come true!
         </p>
       </div>
-      <div class="card">
+      <div class="card interests_card">
         <img src="./imgs/english.png" alt="English" />
         <h1>English</h1>
         <p>
