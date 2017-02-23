@@ -2,57 +2,6 @@
 html {
   font-size: 100%;
 }
-/*TEST2*/
-
-
-.projects__container{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#flat{
-  height: auto;
-   width: auto;
-   max-width: 40rem;
-   max-height:17.5rem;
-   /*max-width: 500px;
-   max-height: 250px;
-     box-shadow: 0 9px 15px grey;*/
-  box-shadow: 0 0.5rem 0.8rem grey;
-}
-
-.technologies__list{
-  list-style-type: none;
-  border-bottom: none;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.technologies__item{
-  text-decoration: none;
-  background-color: rgba(0,104,104,1) ;
-  color: white;
-  padding:0.5rem;
-}
-
-.wrapper{
-  padding:0.75rem;
-}
-
-.project{
-  background: white;
-  width: 50rem;
-  /*  width: 800px*/
-  padding:0.75rem;
-  display: flex;
-  flex-direction: row;
-}
-
-.project__text{
-  padding:0.5rem;
-}
 
 .icon_container img{
   display: inline-block;
