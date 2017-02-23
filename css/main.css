@@ -134,6 +134,16 @@ h1,h2,h3,h4,h5,p{
 p{
   font-size: 1.125rem;
 }
+
+body.on-scroll .header {
+  background-color: rgba(255,255,255, 0.8);
+}
+
+body.on-scroll .header__img{
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
 .header{
   padding: 0.45rem .75rem;
   background-color: white;
