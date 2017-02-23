@@ -102,7 +102,7 @@ nav ul li  {
       background-size: 100% 200%;
       background-position: top center;
       color: #666;
-      display: block;
+      display: inline-block;
       text-align: center;
       text-decoration: none;
       transition: all .25s ease-in-out;
@@ -114,7 +114,7 @@ nav ul li  {
       li a {
         color: #051F59;
         font-weight: 800;
-        display: block;
+        display: inline-block;
         padding: 1rem 0;
         transition: all .25s ease-in-out;
       }
@@ -185,6 +185,9 @@ body.on-scroll .header__img{
   display:inline-block;
 }
 
+.hamburger-icon{
+  display:none;
+}
 .navbar__list__item a{
   text-decoration: none;
 }
@@ -388,4 +391,41 @@ footer{
   padding: 1.5rem;
   color: white;
   background-color: #008080;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:last-child) {display: none;}
+  ul.topnav li.hamburger-icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .header{
+    display:block;
+  }
+  .header__logo{
+    clear:both;
+  }
+  .navbar{
+    position: relative;
+    display: block;
+    clear:both;
+  }
+  ul.topnav.responsive {position: relative;
+    clear:both;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline-block;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: center;
+  }
 }
