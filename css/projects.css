@@ -6,7 +6,7 @@ html,body{
   box-sizing: border-box;
 }
 .interests_div{
-  background-color: #33A0A0;
+  background-color: #99004D;
   /*padding: 0.75rem;*/
   box-sizing: border-box;
 }
@@ -19,19 +19,20 @@ html,body{
 
 .card{
 width: 550px;
-border: 1px solid gray;
+border: 1px solid #7d8084;
 box-shadow: 1px 1px 3px #888;
-border-top: 10px solid #0A2A74;
 background-color: white;
 min-height: 350px;
 padding: 0.5rem;
-border-radius: 7.5%;
 margin: 10px;
 display: flex;
 justify-content: space-around;
 }
 
-
+.projects__card{
+  border-top: 10px solid #0A2A74;
+  border-radius: 7.5%;
+}
 
 .card__image{
   padding: 0.5rem;
