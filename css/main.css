@@ -3,14 +3,6 @@ html {
   font-size: 100%;
 }
 
-.icon_container img{
-  display: inline-block;
-  height:auto;
-  width: auto;
-  max-width: 5rem;
-  /*max-height: 10rem;*/
-}
-
 .project > img{
   height: auto;
    width: auto;
