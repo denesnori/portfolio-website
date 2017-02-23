@@ -3,9 +3,7 @@ html {
   font-size: 100%;
 }
 /*TEST2*/
-.projects{
-  background-color: #B80047;
-}
+
 
 .projects__container{
   display: flex;
