@@ -21,9 +21,11 @@ html,body{
 width: 550px;
 border: 1px solid gray;
 box-shadow: 1px 1px 3px #888;
+border-top: 10px solid #0A2A74;
 background-color: white;
 min-height: 350px;
 padding: 0.5rem;
+border-radius: 7.5%;
 margin: 10px;
 display: flex;
 justify-content: space-around;
@@ -56,7 +58,7 @@ justify-content: space-around;
 }
 
 .button {
-  background-color: ForestGreen;
+  background-color: #051F59;
   border-radius: 5px;
   color: white;
   padding: .5em;
@@ -65,7 +67,7 @@ justify-content: space-around;
 
 .button:focus,
 .button:hover {
-  background-color: DarkGreen;
+  background-color:#254CA8;
 }
 
 @media screen and (max-width:680px) {
