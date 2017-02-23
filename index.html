@@ -14,7 +14,7 @@
     <!--navbar-->
   <header class="header">
     <div class="header__logo col-4 col-m-4">
-        <img class="header__img" src="./imgs/favicon.png" alt="monogram" />
+        <img class="header__img" src="./imgs/logo.png" alt="monogram" />
       <div class="header__details ">
         <h1 class="header__name">Nóra Dénes</h1>
         <h4 class="header__title"> Full-stack developer</h4>
@@ -23,20 +23,21 @@
     <nav  class="navbar col-8 col-m-8">
         <ul class="navbar__list">
           <li class="navbar__list__item">
-            <a href="#">About me</a>
+            <a href="#about_me">About me</a>
           </li>
           <li class="navbar__list__item">
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li class="navbar__list__item">
-            <a href="#">Interests</a>
+            <a href="#interests">Interests</a>
           </li>
           <li class="navbar__list__item">
-            <a href="#">Contacts</a>
+            <a href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
   </header>
+  <div class="container">
     <!--Introduction-->
     <div class="introduction">
       <div class="introduction__message">
@@ -50,7 +51,7 @@
       <div style="clear: both"></div>
     </div>
     <!--About me-->
-    <div class="about_me">
+    <div class="about_me" id="about_me">
         <h2>About me</h2>
         <p>
           I am a full-stack JavaScript web developer living in London, currently learning and freelancing at <a id="fac-link" href="http://www.foundersandcoders.com/">Founders & Coders</a>.
@@ -60,8 +61,8 @@
         </p>
     </div>
     <!--Proects-->
-    <div class="projects ">
-      <h2>Projects</h2>
+    <div class="projects" id="projects">
+      <h2>Projects I worked on</h2>
       <div class="projects__container">
         <div class="wrapper">
         <div class="project">
@@ -83,6 +84,30 @@
               <li class="technologies__item">Javascript</li>
               <li class="technologies__item">Node.js</li>
               <li class="technologies__item">Hapi</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="wrapper">
+        <div class="project">
+          <img src="./imgs/science_adventurers.png" alt="" />
+          <div class="project__text">
+            <h4>Childline</h4>
+          <p>
+            dummy,dummy dummy dummy,dummy dummy dummy,dummy dummy dummy,dummy dummy dummy,dummy dummy
+            dummy,dummy dummy dummy,dummy dummy dummy,dummy dummydummy,dummy dummy
+          </p>
+          <div class="project__view">
+            <a class="btn btn--project" href="" target="_blank">View site</a>
+            <a class="btn btn--project" href="" target="_blank">View on github</a>
+          </div>
+          <div class="technologies">
+            <ul ul class="technologies__list">
+              <li class="technologies__item">HTML5</li>
+              <li class="technologies__item">CSS3</li>
+              <li class="technologies__item">React</li>
+              <li class="technologies__item">Phoenix.js</li>
             </ul>
           </div>
           </div>
@@ -126,7 +151,7 @@
       </div>
     </div>
     <!--Interests-->
-    <div class="interests_div">
+    <div class="interests_div" id="interests">
       <h2>Interests</h2>
       <h4>What I am up to If not coding?</h4>
       <div class="cards__div">
@@ -190,7 +215,7 @@
     </div>
     </div>
     <!--Contacts-->
-    <div class="contact">
+    <div class="contact" id="contacts">
       <h2>Contacts</h2>
       <h4>Interested in working with me? Get in touch!</h4>
       <div class="contact__icons">
@@ -277,6 +302,8 @@
         </li>
       </ul>
     </div>-->
+  </div>
     <footer class="footer"> © Nóra Dénes All rights reserved</footer>
+    <script type="text/javascript" src="./js/main.js"> </script>
   </body>
 </html>

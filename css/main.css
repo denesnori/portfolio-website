@@ -134,11 +134,21 @@ h1,h2,h3,h4,h5,p{
 p{
   font-size: 1.125rem;
 }
+
+body.on-scroll .header {
+  background-color: rgba(255,255,255, 0.8);
+}
+
+body.on-scroll .header__img{
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
 .header{
-  padding:.75rem;
+  padding: 0.45rem .75rem;
   background-color: white;
   color: #051F59;
-/*  position: fixed;*/
+  position: fixed;
   width:100%;
   top:0;
   display: flex;
@@ -147,6 +157,10 @@ p{
 /*  z-index: 50;*/
 }
 
+.header__logo{
+  display: flex;
+  justify-content: space-around;;
+}
 
 .header__details{
   display: inline-block;
@@ -154,6 +168,10 @@ p{
 
 .header__img{
   display: inline-block;
+}
+
+.header__name{
+  margin:0;
 }
 .navbar{
   float:right;
@@ -169,6 +187,10 @@ p{
 
 .navbar__list__item a{
   text-decoration: none;
+}
+
+.container{
+  margin:95px auto 0;
 }
 
 .introduction{
