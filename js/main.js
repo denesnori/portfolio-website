@@ -37,7 +37,7 @@
      //      console.log(target);
            let element = navigator.userAgent.indexOf("Firefox") > -1 ? document.documentElement : document.body;
    //        console.log(element);
-           smoothScrolling(element, target.offsetTop, 800);
+           smoothScrolling(element, target.offsetTop-100, 800);
          }
        });
 };
