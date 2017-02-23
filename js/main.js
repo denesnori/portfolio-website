@@ -11,6 +11,7 @@
   };
 
 
+
 //ok
   function smoothScrolling(element,position,time){
     if (time<= 0) {
@@ -31,7 +32,7 @@
   function addScrollingToNavLinks(){
        document.querySelector(".navbar__list").addEventListener("click", (e)=> {
          event.preventDefault();
-         if(e.target && e.target.nodeName == "A") {
+         if(e.target && e.target.nodeName == "A" && e.target.id!=="hamburger") {
            let link = e.target;
            let target =  document.getElementById(link.getAttribute("href").slice(1));
      //      console.log(target);
@@ -51,3 +52,12 @@
     addScrollingToNavLinks();
   }
 })()
+function responsiveNav() {
+    var x = document.getElementById("myTopnav");
+    console.log(x);
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
