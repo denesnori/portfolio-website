@@ -1,12 +1,11 @@
 (function(){
 
-  //works
+  // change header's opacity on scroll--> add on-scroll class to header
   function onScroll(){
     window.addEventListener("scroll",function(){
       document.body.classList[
         window.scrollY > 50 ? "add" : "remove"
       ]('on-scroll');
-    //  console.log("scrolled");
     });
   };
 
