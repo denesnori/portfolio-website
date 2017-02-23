@@ -138,7 +138,7 @@ p{
   padding:.75rem;
   background-color: white;
   color: #051F59;
-/*  position: fixed;*/
+  position: fixed;
   width:100%;
   top:0;
   display: flex;
@@ -169,6 +169,10 @@ p{
 
 .navbar__list__item a{
   text-decoration: none;
+}
+
+.container{
+  margin:135px auto 0;
 }
 
 .introduction{
