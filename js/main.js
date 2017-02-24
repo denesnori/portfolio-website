@@ -48,7 +48,7 @@
     addScrollingToNavLinks();
   }
 })()
-<!--function responsiveNav() {
+/*function responsiveNav() {
     var nav = document.getElementById("myTopnav");
     console.log(nav);
     if (nav.className === "topnav") {
@@ -56,4 +56,4 @@
     } else {
         nav.className = "topnav";
     }
-}-->
+}*/
