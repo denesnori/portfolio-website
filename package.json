@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "**Development in progress**",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node nightwatch.conf.js",
+    "test": "./node_modules/.bin/nightwatch --env local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denesnori/portfolio-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denesnori/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/denesnori/portfolio-website#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.12",
+    "selenium-download": "^2.0.9"
+  }
+}
