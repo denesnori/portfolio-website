@@ -13,6 +13,7 @@
 
 .contact h2,h4{
   padding:0.5rem;
+  font-size: 1.5rem;
 }
 
 .info{
@@ -48,6 +49,8 @@
 .contact__list__item a:hover{
   color:orange;
 }
+
+
 
 footer{
   text-align: center;
