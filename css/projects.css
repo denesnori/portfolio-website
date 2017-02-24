@@ -1,14 +1,15 @@
-.projects_div{
+.projects{
   background-color:#99004D;/*#B80047;/* #99004D;*/
   box-sizing: border-box;
   padding: 1rem 0;
 }
-.cards__div{
+
+/*.projects__cards{
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+}*/
 
 .projects__card{
   display: flex;
@@ -18,10 +19,10 @@
   border-radius: 7.5%;
 }
 
-.projects__card-portrait{
+.projects__card--portrait{
   min-height: 400px;
 }
-.projects__card-landscape{
+.projects__card--landscape{
   min-height: 350px;
 }
 
@@ -66,7 +67,7 @@
   background-color:#254CA8;
 }
 
-.technologies__list{
+.card__list{
   list-style-type: none;
   border-bottom: none;
   display: flex;
@@ -75,7 +76,7 @@
   padding: 0;
 }
 
-.technologies__item{
+.card__list__item{
   text-decoration: none;
   background-color: rgba(0,104,104,1) ;
   color: white;

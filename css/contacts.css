@@ -9,21 +9,20 @@
 
 .contact h4{
   color:#004F4f;
-}
-
-.contact h2,h4{
   padding:0.5rem;
   font-size: 1.5rem;
 }
 
-.info{
-  padding:1rem;
+.contact__details{
+  padding:0.5rem;
 }
 
 .contact__icons{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .contact__icon{
