@@ -48,12 +48,12 @@
     addScrollingToNavLinks();
   }
 })()
-function responsiveNav() {
+/*function responsiveNav() {
     var nav = document.getElementById("myTopnav");
-    console.log(x);
+    console.log(nav);
     if (nav.className === "topnav") {
         nav.className += " responsive";
     } else {
         nav.className = "topnav";
     }
-}
+}*/

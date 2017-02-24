@@ -3,6 +3,7 @@
   background-color: #33A0A0;
   /*padding: 0.75rem;*/
   box-sizing: border-box;
+  padding-top: 1rem;
 }
 .cards__div{
   box-sizing: border-box;
@@ -22,7 +23,7 @@ margin: 10px;
 .interests_card{
   width: 350px;
   min-height: 250px;
-  border-top: 10px solid rgba(0,104,104,1);
+  border-top: 0.75rem solid rgba(0,104,104,1) !important;
   border-radius: 10%;
 }
 

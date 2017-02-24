@@ -1,14 +1,59 @@
-
-html {
-  font-size: 100%;
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+ width:15rem;
+ max-width: 50%;
+ position: relative;
+/* background: #ba89b6;*/
+ background: #008080;
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 
-.icon_container img{
-  display: inline-block;
-  height:auto;
-  width: auto;
-  max-width: 5rem;
-  /*max-height: 10rem;*/
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ /*border: 1.5em solid #986794;*/
+ border: 1.5em solid #004F4F;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ /*border-color: #804f7c transparent transparent transparent;*/
+ border-color: #006868 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+.non-semantic-protector { position: relative; z-index: 1; }
+
+
+/*TEST TEST*/
+html {
+  font-size: 100%;
 }
 
 .project > img{
@@ -51,9 +96,7 @@ body.on-scroll .header__img{
   display: flex;
   align-items: center;
   justify-content: center;
-  /*background-color: green;*/
   background-image: url("../imgs/temp_background2.jpg");
-  /*Crate the parallax scrolling effect*/
   background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
@@ -74,7 +117,6 @@ body.on-scroll .header__img{
 }
 
 
-
 .nora_img{
   border-radius: 50%;
   height: 12rem;
@@ -84,8 +126,29 @@ body.on-scroll .header__img{
 .about_me{
   padding:0.5rem;
   text-align:center;
-  background-color:#4565B0;
-  color: white;
+  /*background-color: #006868;*/
+  /*background-color:#4565B0;*/
+  background-color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_me__container{
+/*  border: 0.4rem solid grey;
+  border-radius: 10%;*/
+  padding: 0.5rem;
+  background-color: white;
+  max-width: 90%;
+}
+
+.about_me h2{
+  font-size: 2.5rem;
+}
+.about_me p{
+  padding:0.5rem;
+  font-size: 1.5rem;
 }
 
 #fac-link{
@@ -97,16 +160,15 @@ body.on-scroll .header__img{
   color:#FB8320;
 }
 
-.left{
-  float:left;
-}
-
-.left,.icon{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .info__text{
   text-align: center;
+}
+
+@media screen and (max-width:500px) {
+  .nora_img{
+    height:8rem;
+  }
+  .introduction__message p{
+    font-size: 1.7rem;
+  }
 }

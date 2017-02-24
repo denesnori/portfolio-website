@@ -9,6 +9,7 @@ html,body{
   background-color:#B80047;/* #99004D;*/
   /*padding: 0.75rem;*/
   box-sizing: border-box;
+  padding-top: 1rem;
 }
 .cards__div{
   box-sizing: border-box;
@@ -17,21 +18,28 @@ html,body{
   flex-wrap: wrap;
 }
 
-.card{
+/* remove one of them+!!!!*/
+/*.card{
 border: 1px solid #7d8084;
 box-shadow: 1px 1px 3px #888;
 background-color: white;
 padding: 0.5rem;
 margin: 10px;
-}
+}*/
 
 .projects__card{
   display: flex;
   justify-content: space-around;
   width: 550px;
-  min-height: 350px;
-  border-top: 10px solid #0A2A74;
+  border-top: 0.75rem solid #0A2A74;
   border-radius: 7.5%;
+}
+
+.projects__card-portrait{
+  min-height: 400px;
+}
+.projects__card-landscape{
+  min-height: 350px;
 }
 
 .card__image{
@@ -99,5 +107,7 @@ margin: 10px;
 @media screen and (max-width:680px) {
   .projects__card{
     flex-direction: column;
+    max-width: 450px;
   }
+
 }
