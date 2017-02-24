@@ -23,16 +23,19 @@ strong{
  border: 1.5em solid #004F4F;
  z-index: -1;
 }
+
 .ribbon:before {
  left: -2em;
  border-right-width: 1.5em;
  border-left-color: transparent;
 }
+
 .ribbon:after {
  right: -2em;
  border-left-width: 1.5em;
  border-right-color: transparent;
 }
+
 .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
  content: "";
  position: absolute;
@@ -41,16 +44,18 @@ strong{
  border-color: #006868 transparent transparent transparent;
  bottom: -1em;
 }
+
 .ribbon .ribbon-content:before {
  left: 0;
  border-width: 1em 0 0 1em;
 }
+
 .ribbon .ribbon-content:after {
  right: 0;
  border-width: 1em 1em 0 0;
 }
-.non-semantic-protector { position: relative; z-index: 1; }
 
+.non-semantic-protector { position: relative; z-index: 1; }
 
 section h4{
   text-align: center;
@@ -58,19 +63,9 @@ section h4{
   color: white;
 }
 
-
 html {
   font-size: 100%;
 }
-
-.project > img{
-  height: auto;
-   width: auto;
-   max-width: 15rem;
-   max-height: 30rem;
-  box-shadow: 0 0.5rem 0.8rem grey;
-}
-
 
 body{
   margin:0;
@@ -91,9 +86,8 @@ body.on-scroll .header {
 
 body.on-scroll .header__img{
   opacity: 0.2;
-  filter: alpha(opacity=20); /* For IE8 and earlier */
+  filter: alpha(opacity=20);
 }
-
 
 .container{
   margin:6.25rem auto 0;
@@ -105,9 +99,9 @@ body.on-scroll .header__img{
   justify-content: center;
   background-image: url("../imgs/temp_background2.jpg");
   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 1rem;
   height:17rem;
 }
@@ -116,13 +110,12 @@ body.on-scroll .header__img{
   width:50%;
 }
 
-.introduction__message p{
+.introduction__message h2{
   padding: 0.5rem;
   font-size: 2rem;
   color: white;
   font-weight: bolder;
 }
-
 
 .nora_img{
   border-radius: 50%;
@@ -133,8 +126,6 @@ body.on-scroll .header__img{
 .about_me{
   padding:0.5rem;
   text-align:center;
-  /*background-color: #006868;*/
-  /*background-color:#4565B0;*/
   background-color: white;
   padding: 0.5rem;
   display: flex;
@@ -143,8 +134,6 @@ body.on-scroll .header__img{
 }
 
 .about_me__container{
-/*  border: 0.4rem solid grey;
-  border-radius: 10%;*/
   padding: 0.5rem;
   background-color: white;
   max-width: 90%;
@@ -153,6 +142,7 @@ body.on-scroll .header__img{
 .about_me h2{
   font-size: 2.5rem;
 }
+
 .about_me p{
   padding:0.5rem;
   font-size: 1.5rem;
