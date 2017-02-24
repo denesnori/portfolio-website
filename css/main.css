@@ -167,6 +167,11 @@ body.on-scroll .header__img{
   color:#FB8320;
 }
 
+.about_me p{
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
 .info__text{
   text-align: center;
 }
