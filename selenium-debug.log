@@ -1,0 +1,27 @@
+16:22:07.248 INFO - Launching a standalone Selenium Server
+16:22:07.274 INFO - Java: Oracle Corporation 25.111-b14
+16:22:07.274 INFO - OS: Linux 4.4.0-45-generic amd64
+16:22:07.283 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+16:22:07.333 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+16:22:07.334 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+16:22:07.334 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:22:07.334 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:22:07.335 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+16:22:07.335 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+16:22:07.336 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+16:22:07.379 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:22:07.379 INFO - Selenium Server is up and running
+16:22:07.815 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
+16:22:07.824 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
+Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 7755
+Only local connections are allowed.
+16:22:10.029 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
+16:22:10.047 INFO - Executing: [get: file:///home/nori/projects/portfolio-website/index.html])
+16:22:11.430 INFO - Done: [get: file:///home/nori/projects/portfolio-website/index.html]
+16:22:11.443 INFO - Executing: [get title])
+16:22:11.459 INFO - Done: [get title]
+16:22:11.465 INFO - Executing: [delete session: aa825c5b-e4d9-41fc-b903-0aea55bb8095])
+16:22:11.540 INFO - Done: [delete session: aa825c5b-e4d9-41fc-b903-0aea55bb8095]

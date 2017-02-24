@@ -4,7 +4,6 @@
  width:15rem;
  max-width: 50%;
  position: relative;
-/* background: #ba89b6;*/
  background: #008080;
  color: #fff;
  text-align: center;
@@ -21,7 +20,6 @@ strong{
  position: absolute;
  display: block;
  bottom: -1em;
- /*border: 1.5em solid #986794;*/
  border: 1.5em solid #004F4F;
  z-index: -1;
 }
@@ -40,7 +38,6 @@ strong{
  position: absolute;
  display: block;
  border-style: solid;
- /*border-color: #804f7c transparent transparent transparent;*/
  border-color: #006868 transparent transparent transparent;
  bottom: -1em;
 }
@@ -168,6 +165,11 @@ body.on-scroll .header__img{
 
 #fac-link:hover{
   color:#FB8320;
+}
+
+.about_me p{
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
 }
 
 .info__text{
