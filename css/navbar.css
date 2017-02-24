@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-/*  z-index: 50;*/
+  z-index: 50;
 }
 
 .header__logo{
@@ -19,6 +19,7 @@
 
 .header__details{
   display: inline-block;
+  text-align: center;
 }
 
 .header__img{
@@ -93,30 +94,53 @@ nav ul li  {
         transition: all .25s ease-in-out;
       }
 
+@media screen and (max-width:850px) {
+  .header__details h1{
+    font-size: 1.5rem;
+  }
+  .header__details h1{
+    font-size: 1.2rem;
+  }
+}
 
-@media screen and (max-width:680px) {
+
+/*@media screen and (max-width:680px) {
   ul.topnav li:not(:last-child) {display: none;}
   ul.topnav li.hamburger-icon {
     float: right;
     display: inline-block;
   }
-}
+}*/
 
 @media screen and (max-width:680px) {
   .header{
     display:block;
+    padding:0;
   }
   .header__logo{
     clear:both;
     width:100%;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
   .navbar{
     width:100%;
     position: relative;
     display: block;
     clear:both;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
-  ul.topnav.responsive {position: relative;
+  .navbar  a{
+    font-size: 1.rem;
+  }
+
+  @media screen and (max-width:400px) {
+    .header{
+      padding: 0.5rem 0 0 0;
+    }
+    .navbar  a{
+      font-size: 0.9rem;
+    }
+  /*ul.topnav.responsive {position: relative;
     clear:both;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -130,5 +154,5 @@ nav ul li  {
   ul.topnav.responsive li a {
     display: block;
     text-align: center;
-  }
+  }*/
 }

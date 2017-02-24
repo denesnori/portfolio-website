@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./css/contacts.css" media="screen" title="no title">
     <link rel="stylesheet" href="./css/interests.css" media="screen" title="no title">
    <link rel="stylesheet" href="./css/projects.css" media="screen" title="no title">
-   <link rel="stylesheet" href="./css/timeline.css" media="screen" title="no title">
     <link rel="stylesheet" href="https://use.fontawesome.com/dab6567ebf.css" media="all">
     <link rel="stylesheet" href="./css/normalize.css" media="screen" title="no title">
     <title>Nora Denes | Web Developer | Portfolio | Contact</title>
@@ -39,15 +38,15 @@
           <li class="navbar__list__item">
             <a href="#contacts">Contacts</a>
           </li>
-          <li class="hamburger-icon">
+        <!--  <li class="hamburger-icon">
             <a href="javascript:void(0);" onclick="responsiveNav()" id="hamburger" class="hamburger">☰</a>
-          </li>
+          </li>-->
         </ul>
       </nav>
   </header>
   <div class="container">
     <!--Introduction-->
-    <div class="introduction">
+    <section class="introduction">
       <div class="introduction__message">
           <p>
             Welcome to the personal page of Nora Denes
@@ -57,47 +56,49 @@
         <img class='nora_img' src="./imgs/nora_new.JPG" alt="Nora Denes portrait" />
       </div>
       <div style="clear: both"></div>
-    </div>
+    </section>
     <!--About me-->
-    <div class="about_me" id="about_me">
-        <h2>About me</h2>
+    <section class="about_me" id="about_me">
+      <div class="about_me__container">
+
+
+      <div class="non-semantic-protector">
+      <h1 class="ribbon">
+          <strong class="ribbon-content">About me</strong>
+      </h1>
+    </div>
+        <!--<h2>About me</h2>-->
         <p>
-          I am a full-stack JavaScript web developer living in London, currently learning and freelancing at <a id="fac-link" href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+          Here is a brief history, who I am, what I used to do, what I am up to now and what are my future palns.<br>
 
-          My background is in Chemistry, but over time, my interest slowly shifted towards Computational Chemistry, and in the end to programming. After several months of self-learning
+          <br>
+          Now I am a full-stack JavaScript web developer living in London, currently learning and freelancing at <a id="fac-link" href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+          Although, I took a few twists and turn before I got here.
+          <br>
 
+          My background is in Chemistry, but over time, my interest slowly shifted towards Theoretical and Computational Chemistry, and in the end to programming.
+          <br>
+          The final my blow came when I moved to London from Hungary. I saw it as a best possible opportunity for a fresh start.
+           I volunteered at conferences, and attended tons of meetups to learn more about my options and found
+           my new passion in web development.
+          <br>
+          Coming from an academic backbround, web development is refreshing:
+          - create sg that people use, create work that inspires, create community
+          - work together with people from diverse background, deepen you understanding and enrich your work.
+
+
+
+
+          I have a passion for building websites. I am an avid learner, I like experimenting with new technologies and programming languages.
+          <br>
+          Help others to a find a way to do what day love.
+          <br>
+          There are plenty of ways to reach me below <a href="#contacts">contacts</a>.
         </p>
-
-
-
-        <div class="bar"></div>
-    <div class="timeline">
-        <div class="entry">
-            <h1>1990</h1>
-            <h2>Entry Title</h2>
-            <img src="./imgs/nora_new.JPG"/>
-            Here's the info about this date
-        </div>
-        <div class="entry">
-            <h1>1995</h1>
-            Here's the info about this date
-        </div>
-        <div class="entry">
-            <h1>2000</h1>
-            Here's the info about this date
-        </div>
-        <div class="entry">
-            <h1>2005</h1>
-            Here's the info about this date
-        </div>
-        <div class="entry">
-            <h1>2010</h1>
-            Here's the info about this date
-        </div>
-    </div>
-    </div>
+          </div>
+    </section>
     <!--Projects-->
-    <div class="projects_div" >
+    <section class="projects_div" >
       <h2>Interests</h2>
       <h4>What I am up to If not coding?</h4>
       <div class="cards__div">
@@ -237,9 +238,9 @@
 
       </div>
 
-    </div>
+    </section>
     <!--Interests-->
-    <div class="interests_div" id="interests">
+    <section class="interests_div" id="interests">
       <h2>Interests</h2>
       <h4>What I am up to If not coding?</h4>
       <div class="cards__div">
@@ -301,9 +302,9 @@
         </p>
       </div>
     </div>
-    </div>
+  </section>
     <!--Contacts-->
-    <div class="contact" id="contacts">
+    <section class="contact" id="contacts">
       <h2>Contacts</h2>
       <h4>Interested in working with me? Get in touch!</h4>
       <div class="contact__icons">
@@ -357,7 +358,7 @@
         </div>
       <div style="float: none; clear:both;"> </div>
         </div>
-    </div>
+    </section>
   <!--<div class="contact">
       <h2>Contacts</h2>
       <h4>Interested in working with me? Get in touch!</h4>
@@ -384,8 +385,8 @@
         </li>
       </ul>
     </div>-->
-  </div>
-    <footer class="footer"> © Nóra Dénes All rights reserved</footer>
+  </section>
+  <footer class="footer"> © Nóra Dénes All rights reserved</footer>
     <script type="text/javascript" src="./js/main.js"> </script>
   </body>
 </html>
