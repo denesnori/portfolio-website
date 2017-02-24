@@ -12,6 +12,10 @@
  margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 
+strong{
+  font-size: 1.4rem;
+}
+
 .ribbon:before, .ribbon:after {
  content: "";
  position: absolute;
