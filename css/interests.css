@@ -3,7 +3,7 @@
   background-color: #33A0A0;
   /*padding: 0.75rem;*/
   box-sizing: border-box;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 
@@ -30,21 +30,28 @@ margin: 10px;
 }
 
 .interests_card img{
-  width: 70px;
+  /*width: 70px;*/
+  max-height: 4rem;
+  width: auto;
   margin: 10px;
 }
 
 .interests_card h1{
-  font-weight: lighter;
+  font-weight:bold;
 /*  margin-left: 100px;
   margin-top: -70px;*/
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 .card__title{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items:center;
+}
+
+.card__title h1{
+  width:60%;
+  padding-left: 0.5rem;
 }
 .card p{
 /*  margin: 0.75rem;*/
