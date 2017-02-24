@@ -7,7 +7,7 @@
 }
 
 
-.cards__div{
+.cards{
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -22,21 +22,21 @@ padding-: 0.5rem;
 margin: 10px;
 }
 
-.interests_card{
+.interests__card{
   width: 350px;
   min-height: 250px;
   border-top: 0.75rem solid rgba(0,104,104,1) !important;
   border-radius: 10%;
 }
 
-.interests_card img{
+.interests__card img{
   /*width: 70px;*/
   max-height: 4rem;
   width: auto;
   margin: 10px;
 }
 
-.interests_card h1{
+.interests__card h1{
   font-weight:bold;
 /*  margin-left: 100px;
   margin-top: -70px;*/

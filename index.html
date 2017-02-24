@@ -25,7 +25,7 @@
       </div>
     </div>
     <nav  class="navbar">
-      <ul class="navbar__list topnav" id="myTopnav">
+      <ul class="navbar__list">
         <li class="navbar__list__item">
           <a href="#about_me">About me</a>
         </li>
@@ -90,14 +90,14 @@
     </div>
   </section>
   <!--Projects-->
-  <section class="projects_div" id="projects" >
+  <section class="projects" id="projects" >
     <div class="non-semantic-protector">
       <h1 class="ribbon">
         <strong class="ribbon-content">Projects</strong>
       </h1>
     </div>
-    <div class="cards__div">
-      <div class="card projects__card projects__card-portrait">
+    <div class="cards">
+      <div class="card projects__card projects__card--portrait">
         <div class="card__image">
           <img class="portrait" src="./imgs/projects/report_online_content.png" alt="" />
         </div>
@@ -109,21 +109,21 @@
             <a href="https://www.yoti.com/">Yoti</a> for age verification.
 
           </p>
-          <div class="">
-            <a href="#" class="button" role="button">Show source</a>
-            <a href="#" class="button" role="button">Show online</a>
+          <div class="card__links">
+            <a href="https://github.com/FAC9/childline-yoti/" class="button" role="button">Show source</a>
+            <a href="https://childline-yoti.herokuapp.com/" class="button" role="button">Show online</a>
           </div>
-          <ul ul class="technologies__list">
-            <li class="technologies__item">HTML5</li>
-            <li class="technologies__item">CSS3</li>
-            <li class="technologies__item">Javascript</li>
-            <li class="technologies__item">Node</li>
-            <li class="technologies__item">Hapi</li>
+          <ul class="card__list">
+            <li class="card__list__item">HTML5</li>
+            <li class="card__list__item">CSS3</li>
+            <li class="card__list__item">Javascript</li>
+            <li class="card__list__item">Node</li>
+            <li class="card__list__item">Hapi</li>
           </ul>
         </div>
       </div>
 
-      <div class="card projects__card projects__card-portrait">
+      <div class="card projects__card projects__card--portrait">
         <div class="card__image">
           <img class="portrait" src="./imgs/projects/science_adventurers.png" alt="" />
         </div>
@@ -138,18 +138,18 @@
           <a href="https://github.com/Science-Adventurers/game-frontend" class="button" role="button">Show source</a>
           <a href="https://science-museum-adventurers.herokuapp.com/" class="button" role="button">Show online</a>
           </div>
-          <ul ul class="technologies__list">
-            <li class="technologies__item">HTML5</li>
-            <li class="technologies__item">CSS3</li>
-            <li class="technologies__item">Javascript</li>
-            <li class="technologies__item">React</li>
-            <li class="technologies__item">Phoenix</li>
+          <ul class="card__list">
+            <li class="card__list__item">HTML5</li>
+            <li class="card__list__item">CSS3</li>
+            <li class="card__list__item">Javascript</li>
+            <li class="card__list__item">React</li>
+            <li class="card__list__item">Phoenix</li>
           </ul>
 
         </div>
       </div>
 
-      <div class="card projects__card projects__card-landscape">
+      <div class="card projects__card projects__card--landscape">
         <div class="card__image">
           <img class="landscape" src="./imgs/projects/githubissues.png" alt="" />
         </div>
@@ -160,21 +160,21 @@
             Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
           </p>
           <a href="https://github.com/esraajb/oh-auth" class="button" role="button">Show source</a>
-          <ul ul class="technologies__list">
-            <li class="technologies__item">HTML5</li>
-            <li class="technologies__item">CSS3</li>
-            <li class="technologies__item">JavaScript</li>
-            <li class="technologies__item">Node</li>
-            <li class="technologies__item">Hapi</li>
-            <li class="technologies__item">PostgreSQL</li>
-            <li class="technologies__item">OAuth</li>
-            <li class="technologies__item">Handlebars</li>
-            <li class="technologies__item">JWT</li>
+          <ul ul class="card__list">
+            <li class="card__list__item">HTML5</li>
+            <li class="card__list__item">CSS3</li>
+            <li class="card__list__item">JavaScript</li>
+            <li class="card__list__item">Node</li>
+            <li class="card__list__item">Hapi</li>
+            <li class="card__list__item">PostgreSQL</li>
+            <li class="card__list__item">OAuth</li>
+            <li class="card__list__item">Handlebars</li>
+            <li class="card__list__item">JWT</li>
           </ul>
         </div>
       </div>
 
-      <div class="card projects__card projects__card-landscape">
+      <div class="card projects__card projects__card--landscape">
         <div class="card__image">
           <img class="landscape" src="./imgs/projects/sdmapp.png" alt="" />
         </div>
@@ -189,16 +189,16 @@
             <a href="https://github.com/CYPIAPT-LNDSE/sdm-app" class="button" role="button">Show source</a>
             <a href="https://cypiapt-lndse.github.io/sdm-app/" class="button" role="button">Show online</a>
           </div>
-          <ul ul class="technologies__list">
-            <li class="technologies__item">HTML5</li>
-            <li class="technologies__item">CSS3</li>
-            <li class="technologies__item">Javascript</li>
-            <li class="technologies__item">Materialize</li>
+          <ul ul class="card__list">
+            <li class="card__list__item">HTML5</li>
+            <li class="card__list__item">CSS3</li>
+            <li class="card__list__item">Javascript</li>
+            <li class="card__list__item">Materialize</li>
           </ul>
         </div>
       </div>
 
-      <div class="card projects__card projects__card-landscape">
+      <div class="card projects__card projects__card--landscape">
         <div class="card__image">
           <img class="landscape" src="./imgs/projects/badgerer.png" alt="" />
         </div>
@@ -209,18 +209,18 @@
             Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
           </p>
           <a href="https://github.com/FAC9/the-badgerer" class="button" role="button">Show source</a>
-          <ul ul class="technologies__list">
-            <li class="technologies__item">HTML5</li>
-            <li class="technologies__item">CSS3</li>
-            <li class="technologies__item">JavaScript</li>
-            <li class="technologies__item">Node</li>
-            <li class="technologies__item">Hapi</li>
-            <li class="technologies__item">PostgreSQL</li>
+          <ul ul class="card__list">
+            <li class="card__list__item">HTML5</li>
+            <li class="card__list__item">CSS3</li>
+            <li class="card__list__item">JavaScript</li>
+            <li class="card__list__item">Node</li>
+            <li class="card__list__item">Hapi</li>
+            <li class="card__list__item">PostgreSQL</li>
           </ul>
         </div>
       </div>
 
-      <div class="card projects__card projects__card-landscape">
+      <div class="card projects__card projects__card--landscape">
         <div class="card__image">
           <img class="landscape" src="./imgs/projects/autocomplete.png" alt="" />
         </div>
@@ -231,13 +231,13 @@
             Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
           </p>
           <a href="https://github.com/FAC9/backend-badgers-autocomplete" class="button" role="button">Show source</a>
-          <ul ul class="technologies__list">
-            <li class="technologies__item">HTML5</li>
-            <li class="technologies__item">CSS3</li>
-            <li class="technologies__item">JavaScript</li>
-            <li class="technologies__item">Node</li>
-            <li class="technologies__item">Tape</li>
-            <li class="technologies__item">Qunit</li>
+          <ul ul class="card__list">
+            <li class="card__list__item">HTML5</li>
+            <li class="card__list__item">CSS3</li>
+            <li class="card__list__item">JavaScript</li>
+            <li class="card__list__item">Node</li>
+            <li class="card__list__item">Tape</li>
+            <li class="card__list__item">Qunit</li>
           </ul>
         </div>
       </div>
@@ -253,8 +253,8 @@
       </h1>
     </div>
     <h4>What I am up to If not coding?</h4>
-    <div class="cards__div">
-      <div class="card interests_card">
+    <div class="cards">
+      <div class="card interests__card">
         <div class="card__title">
         <img src="./imgs/interests/meetup.png" alt="" />
         <h1>Meetups</h1>
@@ -265,7 +265,7 @@
           wanting to do something good or just improve their knowledge.
         </p>
       </div>
-      <div class="card interests_card">
+      <div class="card interests__card">
         <div class="card__title">
         <img src="./imgs/interests/code_your_future.png" alt="" />
         <h1>Code Your Future</h1>
@@ -276,7 +276,7 @@
           to deliver their backend module.
         </p>
       </div>
-      <div class="card interests_card">
+      <div class="card interests__card">
         <div class="card__title">
         <img src="./imgs/interests/volunteer.jpg" alt="" />
         <h1>Volunteering</h1>
@@ -288,7 +288,7 @@
           and <a href="https://odsc.com/london">ODSC London</a>.
         </p>
       </div>
-      <div class="card interests_card">
+      <div class="card interests__card">
         <div class="card__title">
         <img src="./imgs/interests/hiking.jpg" alt="" />
         <h1>Hiking</h1>
@@ -300,7 +300,7 @@
           West Highland Way.
         </p>
       </div>
-      <div class="card interests_card">
+      <div class="card interests__card">
         <div class="card__title">
         <img src="./imgs/interests/tennis_logo.png" alt="" />
         <h1>Tennis</h1>
@@ -312,7 +312,7 @@
           It was a dream come true!
         </p>
       </div>
-      <div class="card interests_card">
+      <div class="card interests__card">
         <div class="card__title">
         <img src="./imgs/interests/english.png" alt="English" />
         <h1>English</h1>
@@ -334,53 +334,29 @@
     </div>
     <h4>Interested in working with me? Get in touch!</h4>
     <div class="contact__icons">
-      <div class="info">
-        <div class="icon">
+      <div class="contact__details">
           <a href="#"><img class="contact__icon" src="./imgs/contacts/pdf.png" alt="" /></a>
-        </div>
-        <div class="info__text">
           <h2>CV</h2>
-        </div>
       </div>
-      <div class="info">
-        <div class="icon">
+      <div class="contact__details">
           <a href="#"><img class="contact__icon" src="./imgs/contacts/email.jpg" alt="" /></a>
-        </div>
-        <div class="info__text">
           <h2>Email</h2>
-        </div>
       </div>
-      <div class="info">
-        <div class="icon">
+      <div class="contact__details">
           <a href="https://www.linkedin.com/in/n%C3%B3ra-d%C3%A9nes-1974a0112"><img class="contact__icon" src="./imgs/contacts/linkedin.jpg" alt="" /></a>
-        </div>
-        <div class="info__text">
           <h2>Linkedin</h2>
-        </div>
       </div>
-      <div class="info">
-        <div class="icon">
+      <div class="contact__details">
           <a href="https://github.com/denesnori"><img class="contact__icon" src="./imgs/contacts/github.jpg" alt="" /></a>
-        </div>
-        <div class="info__text">
           <h2>GitHub</h2>
-        </div>
       </div>
-      <div class="info">
-        <div class="icon">
+      <div class="contact__details">
           <a href="https://www.codewars.com/users/denesnori"><img class="contact__icon" src="./imgs/contacts/codewars.jpg" alt="" /></a>
-        </div>
-        <div class="info__text">
           <h2>Codewars</h2>
-        </div>
       </div>
-      <div class="info">
-        <div class="icon">
+      <div class="contact__details">
           <a href="https://twitter.com/denesnori"><img class="contact__icon" src="./imgs/contacts/twitter.jpg" alt="" /></a>
-        </div>
-        <div class="info__text">
           <h2>Twitter</h2>
-        </div>
       </div>
       <div style="float: none; clear:both;"> </div>
     </div>
