@@ -1,13 +1,5 @@
-
-
-html,body{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-}
 .projects_div{
   background-color:#99004D;/*#B80047;/* #99004D;*/
-  /*padding: 0.75rem;*/
   box-sizing: border-box;
   padding: 1rem 0;
 }
@@ -17,15 +9,6 @@ html,body{
   justify-content: center;
   flex-wrap: wrap;
 }
-
-/* remove one of them+!!!!*/
-/*.card{
-border: 1px solid #7d8084;
-box-shadow: 1px 1px 3px #888;
-background-color: white;
-padding: 0.5rem;
-margin: 10px;
-}*/
 
 .projects__card{
   display: flex;
@@ -48,13 +31,6 @@ margin: 10px;
   justify-content: center;
   align-items: center;
 }
-
-
-/*.card__image img{
-  border: 1px solid gray;
- add it to certain images
-}*/
-
 
 .card__content{
   padding: 0.5rem;

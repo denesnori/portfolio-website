@@ -63,7 +63,6 @@ nav ul li  {
     ul {
       border-bottom: 1px solid #ccc;
       list-style: none;
-      /*margin: 0 0 1.5rem 0;*/
       padding: 0;
     }
     li {
@@ -103,15 +102,6 @@ nav ul li  {
   }
 }
 
-
-/*@media screen and (max-width:680px) {
-  ul.topnav li:not(:last-child) {display: none;}
-  ul.topnav li.hamburger-icon {
-    float: right;
-    display: inline-block;
-  }
-}*/
-
 @media screen and (max-width:680px) {
   .header{
     display:block;
@@ -140,19 +130,4 @@ nav ul li  {
     .navbar  a{
       font-size: 0.9rem;
     }
-  /*ul.topnav.responsive {position: relative;
-    clear:both;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline-block;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: center;
-  }*/
 }
