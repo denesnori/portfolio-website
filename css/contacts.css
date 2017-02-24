@@ -1,10 +1,8 @@
-/*Contacts*/
 .contact{
   background-color: #FFC551;
   padding: 0.5rem;
   text-align: center;
   padding-top: 1rem;
-
 }
 
 .contact h4{
@@ -28,11 +26,12 @@
 .contact__icon{
   height: 5rem;
   border-radius: 15%;
-
 }
+
 .contact__icon:hover{
   border-radius: 50%;
 }
+
 .contact__list{
   list-style-type: none;
 }
@@ -48,8 +47,6 @@
 .contact__list__item a:hover{
   color:orange;
 }
-
-
 
 footer{
   text-align: center;

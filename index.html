@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
   <meta name="viewport" content="width=device-width"/>
   <link rel="icon" href="./imgs/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/main.css" media="all" title="no title">
@@ -20,7 +19,7 @@
     <div class="header__logo">
       <img class="header__img" src="./imgs/logo.png" alt="monogram" />
       <div class="header__details ">
-        <h1 class="header__name">Nóra Dénes</h1>
+        <h2 class="header__name">Nóra Dénes</h2>
         <h4 class="header__title"> Full-stack developer</h4>
       </div>
     </div>
@@ -38,327 +37,327 @@
         <li class="navbar__list__item">
           <a href="#contacts">Contacts</a>
         </li>
-    </ul>
-  </nav>
-</header>
-<div class="container">
-  <!--Introduction-->
-  <section class="introduction">
-    <div class="introduction__message">
-      <p>
-        Welcome to the personal page of Nora Denes
-      </p>
-    </div>
-    <div class="introduction__image">
-      <img class='nora_img' src="./imgs/nora_new.JPG" alt="Nora Denes portrait" />
-    </div>
-  </section>
-  <!--About me-->
-  <section class="about_me" id="about_me">
-    <div class="about_me__container">
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <!--Introduction-->
+    <section class="introduction">
+      <div class="introduction__message">
+        <h2>
+          Welcome to the personal page of Nora Denes
+        </h2>
+      </div>
+      <div class="introduction__image">
+        <img class='nora_img' src="./imgs/nora_new.JPG" alt="Nora Denes portrait" />
+      </div>
+    </section>
+    <!--About me-->
+    <section class="about_me" id="about_me">
+      <div class="about_me__container">
 
 
+        <div class="non-semantic-protector">
+          <h2 class="ribbon">
+            <strong class="ribbon-content">About me</strong>
+          </h2>
+        </div>
+        <div class="about_me__intro">
+          <p>
+            Here is a brief history, who I am, what I used to do, what I am up to now and what are my future palns.<br>
+          </p>
+          <p>
+            My background is in Chemistry, but over time, my interest slowly shifted towards Theoretical and Computational Chemistry, and in the end to programming.
+            The final my blow came when I moved to London from Hungary. I saw it as a best possible opportunity for a fresh start.
+            I volunteered at conferences, and attended tons of meetups to learn more about my options and found
+            my new passion in web development.
+          </p>
+          <p>
+            Now I am a full-stack JavaScript web developer living in London, currently learning and freelancing at <a id="fac-link" href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+          </p>
+          <p>
+            Coming from an academic backbround, I enjoy creating websites that people use and
+            working together with people from diverse backgrounds.
+            I am an avid learner,
+            I enjoy that every day there is something new and exciting to play around with.
+          </p>
+          <p>
+            There are plenty of ways to reach me <a href="#contacts">contacts</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Projects-->
+    <section class="projects" id="projects" >
       <div class="non-semantic-protector">
-        <h1 class="ribbon">
+        <h2 class="ribbon">
+          <strong class="ribbon-content">Projects</strong>
+        </h2>
+      </div>
+      <div class="cards">
+        <div class="card projects__card projects__card--portrait">
+          <div class="card__image">
+            <img class="portrait" src="./imgs/projects/report_online_content.png" alt="report_online_content_project_snapshot" />
+          </div>
+          <div class="card__content">
+            <h3>Report online content</h3>
+            <p>
+              An app built for anonymously reporting explicit explicite online content.
+              The MVP was built during the Yoti hackathon. The app uses
+              <a href="https://www.yoti.com/">Yoti</a> for age verification.
+
+            </p>
+            <div class="card__links">
+              <a href="https://github.com/FAC9/childline-yoti/" class="button" role="button">Show source</a>
+              <a href="https://childline-yoti.herokuapp.com/" class="button" role="button">Show online</a>
+            </div>
+            <ul class="card__list">
+              <li class="card__list__item">HTML5</li>
+              <li class="card__list__item">CSS3</li>
+              <li class="card__list__item">Javascript</li>
+              <li class="card__list__item">Node</li>
+              <li class="card__list__item">Hapi</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card projects__card projects__card--portrait">
+          <div class="card__image">
+            <img class="portrait" src="./imgs/projects/science_adventurers.png" alt="science_adventurers_quiz_snapshot" />
+          </div>
+          <div class="card__content">
+            <h3>Science adventurers</h3>
+            <p>
+              A multi-player quiz aimed at young people visiting the Science Museum. Built during the
+              Science Museum hackathon. The backend is in Elixir, and I worked on building the React frontend.
+              The backend and the frontend communicates via a websocket.
+            </p>
+            <div class="">
+              <a href="https://github.com/Science-Adventurers/game-frontend" class="button" role="button">Show source</a>
+              <a href="https://science-museum-adventurers.herokuapp.com/" class="button" role="button">Show online</a>
+            </div>
+            <ul class="card__list">
+              <li class="card__list__item">HTML5</li>
+              <li class="card__list__item">CSS3</li>
+              <li class="card__list__item">Javascript</li>
+              <li class="card__list__item">React</li>
+              <li class="card__list__item">Phoenix</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="card projects__card projects__card--landscape">
+          <div class="card__image">
+            <img class="landscape" src="./imgs/projects/githubissues.png" alt="issue_tracker_project_snapshot" />
+          </div>
+          <div class="card__content">
+            <h3>GitHub issue tracker</h3>
+            <p>
+              A GitHub issue tracker app which integrates with github using OAuth.
+              Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+            </p>
+            <a href="https://github.com/esraajb/oh-auth" class="button" role="button">Show source</a>
+            <ul  class="card__list">
+              <li class="card__list__item">HTML5</li>
+              <li class="card__list__item">CSS3</li>
+              <li class="card__list__item">JavaScript</li>
+              <li class="card__list__item">Node</li>
+              <li class="card__list__item">Hapi</li>
+              <li class="card__list__item">PostgreSQL</li>
+              <li class="card__list__item">OAuth</li>
+              <li class="card__list__item">Handlebars</li>
+              <li class="card__list__item">JWT</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card projects__card projects__card--landscape">
+          <div class="card__image">
+            <img class="landscape" src="./imgs/projects/sdmapp.png" alt="shared_decision_making_app_snapshot" />
+          </div>
+          <div class="card__content">
+            <h3>Shared decision making</h3>
+            <p>
+              Created for the Anna Freud Hackathon, it is a pure frontend MVP. The aim is to inform young people suffering
+              from depression about their treatment options,so that  clinicians and patients can a shared decision about the treatment
+              that the patient will receive.
+            </p>
+            <div class="">
+              <a href="https://github.com/CYPIAPT-LNDSE/sdm-app" class="button" role="button">Show source</a>
+              <a href="https://cypiapt-lndse.github.io/sdm-app/" class="button" role="button">Show online</a>
+            </div>
+            <ul  class="card__list">
+              <li class="card__list__item">HTML5</li>
+              <li class="card__list__item">CSS3</li>
+              <li class="card__list__item">Javascript</li>
+              <li class="card__list__item">Materialize</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card projects__card projects__card--landscape">
+          <div class="card__image">
+            <img class="landscape" src="./imgs/projects/badgerer.png" alt="cms_project_snapshot" />
+          </div>
+          <div class="card__content">
+            <h3>CMS</h3>
+            <p>
+              A platform for writing and sharing reviews of coding resources.
+              Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+            </p>
+            <a href="https://github.com/FAC9/the-badgerer" class="button" role="button">Show source</a>
+            <ul  class="card__list">
+              <li class="card__list__item">HTML5</li>
+              <li class="card__list__item">CSS3</li>
+              <li class="card__list__item">JavaScript</li>
+              <li class="card__list__item">Node</li>
+              <li class="card__list__item">Hapi</li>
+              <li class="card__list__item">PostgreSQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card projects__card projects__card--landscape">
+          <div class="card__image">
+            <img class="landscape" src="./imgs/projects/autocomplete.png" alt="autocomplete_project_snapshot" />
+          </div>
+          <div class="card__content">
+            <h3>Autocomplete</h3>
+            <p>
+              An autocomplete website which supports multiple languages.
+              Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+            </p>
+            <a href="https://github.com/FAC9/backend-badgers-autocomplete" class="button" role="button">Show source</a>
+            <ul class="card__list">
+              <li class="card__list__item">HTML5</li>
+              <li class="card__list__item">CSS3</li>
+              <li class="card__list__item">JavaScript</li>
+              <li class="card__list__item">Node</li>
+              <li class="card__list__item">Tape</li>
+              <li class="card__list__item">Qunit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Interests-->
+    <section class="interests" id="interests">
+      <div class="non-semantic-protector">
+        <h2 class="ribbon">
           <strong class="ribbon-content">About me</strong>
-        </h1>
+        </h2>
       </div>
-      <div class="about_me__intro">
-      <p>
-        Here is a brief history, who I am, what I used to do, what I am up to now and what are my future palns.<br>
-      </p>
-        <p>
-        My background is in Chemistry, but over time, my interest slowly shifted towards Theoretical and Computational Chemistry, and in the end to programming.
-        The final my blow came when I moved to London from Hungary. I saw it as a best possible opportunity for a fresh start.
-        I volunteered at conferences, and attended tons of meetups to learn more about my options and found
-        my new passion in web development.
-        </p>
-        <p>
-        Now I am a full-stack JavaScript web developer living in London, currently learning and freelancing at <a id="fac-link" href="http://www.foundersandcoders.com/">Founders & Coders</a>.
-        </p>
-        <p>
-        Coming from an academic backbround, I enjoy creating websites that people use and
-        working together with people from diverse backgrounds.
-        I am an avid learner,
-        I enjoy that every day there is something new and exciting to play around with.
-        </p>
-        <p>
-        There are plenty of ways to reach me <a href="#contacts">contacts</a>.
-      </p>
-      </div>
-    </div>
-  </section>
-  <!--Projects-->
-  <section class="projects" id="projects" >
-    <div class="non-semantic-protector">
-      <h1 class="ribbon">
-        <strong class="ribbon-content">Projects</strong>
-      </h1>
-    </div>
-    <div class="cards">
-      <div class="card projects__card projects__card--portrait">
-        <div class="card__image">
-          <img class="portrait" src="./imgs/projects/report_online_content.png" alt="report_online_content_project_snapshot" />
-        </div>
-        <div class="card__content">
-          <h3>Report online content</h3>
-          <p>
-            An app built for anonymously reporting explicit explicite online content.
-            The MVP was built during the Yoti hackathon. The app uses
-            <a href="https://www.yoti.com/">Yoti</a> for age verification.
-
-          </p>
-          <div class="card__links">
-            <a href="https://github.com/FAC9/childline-yoti/" class="button" role="button">Show source</a>
-            <a href="https://childline-yoti.herokuapp.com/" class="button" role="button">Show online</a>
+      <h4>What I am up to If not coding?</h4>
+      <div class="cards">
+        <div class="card interests__card">
+          <div class="card__title">
+            <img src="./imgs/interests/meetup.png" alt="meetup_logo" />
+            <h2>Meetups</h2>
           </div>
-          <ul class="card__list">
-            <li class="card__list__item">HTML5</li>
-            <li class="card__list__item">CSS3</li>
-            <li class="card__list__item">Javascript</li>
-            <li class="card__list__item">Node</li>
-            <li class="card__list__item">Hapi</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card projects__card projects__card--portrait">
-        <div class="card__image">
-          <img class="portrait" src="./imgs/projects/science_adventurers.png" alt="science_adventurers_quiz_snapshot" />
-        </div>
-        <div class="card__content">
-          <h3>Science adventurers</h3>
           <p>
-            A multi-player quiz aimed at young people visiting the Science Museum. Built during the
-            Science Museum hackathon. The backend is in Elixir, and I worked on building the React frontend.
-            The backend and the frontend communicates via a websocket.
+            I love the meetups. I can't keep track of the number of meetup groups i signed up for.
+            I have already met many highly motivated people changing careers,
+            wanting to do something good or just improve their knowledge.
           </p>
-          <div class="">
-          <a href="https://github.com/Science-Adventurers/game-frontend" class="button" role="button">Show source</a>
-          <a href="https://science-museum-adventurers.herokuapp.com/" class="button" role="button">Show online</a>
+        </div>
+        <div class="card interests__card">
+          <div class="card__title">
+            <img src="./imgs/interests/code_your_future.png" alt="code_your_future_logo" />
+            <h2>Code Your Future</h2>
           </div>
-          <ul class="card__list">
-            <li class="card__list__item">HTML5</li>
-            <li class="card__list__item">CSS3</li>
-            <li class="card__list__item">Javascript</li>
-            <li class="card__list__item">React</li>
-            <li class="card__list__item">Phoenix</li>
-          </ul>
-
-        </div>
-      </div>
-
-      <div class="card projects__card projects__card--landscape">
-        <div class="card__image">
-          <img class="landscape" src="./imgs/projects/githubissues.png" alt="issue_tracker_project_snapshot" />
-        </div>
-        <div class="card__content">
-          <h3>GitHub issue tracker</h3>
           <p>
-            A GitHub issue tracker app which integrates with github using OAuth.
-            Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+            I have recently started volunteering for <a href="https://codeyourfuture.co/">Code Your Future</a>,
+            a coding school for refugees. They teach CSS/HTML, Javascript and backend technologies. I help them
+            to deliver their backend module.
           </p>
-          <a href="https://github.com/esraajb/oh-auth" class="button" role="button">Show source</a>
-          <ul ul class="card__list">
-            <li class="card__list__item">HTML5</li>
-            <li class="card__list__item">CSS3</li>
-            <li class="card__list__item">JavaScript</li>
-            <li class="card__list__item">Node</li>
-            <li class="card__list__item">Hapi</li>
-            <li class="card__list__item">PostgreSQL</li>
-            <li class="card__list__item">OAuth</li>
-            <li class="card__list__item">Handlebars</li>
-            <li class="card__list__item">JWT</li>
-          </ul>
         </div>
-      </div>
-
-      <div class="card projects__card projects__card--landscape">
-        <div class="card__image">
-          <img class="landscape" src="./imgs/projects/sdmapp.png" alt="shared_decision_making_app_snapshot" />
-        </div>
-        <div class="card__content">
-          <h3>Shared decision making</h3>
-          <p>
-            Created for the Anna Freud Hackathon, it is a pure frontend MVP. The aim is to inform young people suffering
-            from depression about their treatment options,so that  clinicians and patients can a shared decision about the treatment
-            that the patient will receive.
-          </p>
-          <div class="">
-            <a href="https://github.com/CYPIAPT-LNDSE/sdm-app" class="button" role="button">Show source</a>
-            <a href="https://cypiapt-lndse.github.io/sdm-app/" class="button" role="button">Show online</a>
+        <div class="card interests__card">
+          <div class="card__title">
+            <img src="./imgs/interests/volunteer.jpg" alt="volunteering_logo" />
+            <h2>Volunteering</h2>
           </div>
-          <ul ul class="card__list">
-            <li class="card__list__item">HTML5</li>
-            <li class="card__list__item">CSS3</li>
-            <li class="card__list__item">Javascript</li>
-            <li class="card__list__item">Materialize</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card projects__card projects__card--landscape">
-        <div class="card__image">
-          <img class="landscape" src="./imgs/projects/badgerer.png" alt="cms_project_snapshot" />
-        </div>
-        <div class="card__content">
-          <h3>CMS</h3>
           <p>
-            A platform for writing and sharing reviews of coding resources.
-            Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+            Coming from a non Computer Science background, volunteering for coding related conferences gives me
+            an amzing opportunity to broaden my horizon, forge new friendships and
+            give something back to the developer community. Last year I volunteered for <a href="http://www.devoxx.co.uk/">DevoxxUK</a>
+            and <a href="https://odsc.com/london">ODSC London</a>.
           </p>
-          <a href="https://github.com/FAC9/the-badgerer" class="button" role="button">Show source</a>
-          <ul ul class="card__list">
-            <li class="card__list__item">HTML5</li>
-            <li class="card__list__item">CSS3</li>
-            <li class="card__list__item">JavaScript</li>
-            <li class="card__list__item">Node</li>
-            <li class="card__list__item">Hapi</li>
-            <li class="card__list__item">PostgreSQL</li>
-          </ul>
         </div>
-      </div>
-
-      <div class="card projects__card projects__card--landscape">
-        <div class="card__image">
-          <img class="landscape" src="./imgs/projects/autocomplete.png" alt="autocomplete_project_snapshot" />
-        </div>
-        <div class="card__content">
-          <h3>Autocomplete</h3>
+        <div class="card interests__card">
+          <div class="card__title">
+            <img src="./imgs/interests/hiking.jpg" alt="hiking_logo" />
+            <h2>Hiking</h2>
+          </div>
           <p>
-            An autocomplete website which supports multiple languages.
-            Created as a team project at <a href="http://www.foundersandcoders.com/">Founders & Coders</a>.
+            I fell in love with hiking when I walked the El Camino ( the French Way) in 2014.
+            I walked the the Potuguese Camino. After I moved to England, I decided to walk
+            the Scottish lonf distance hiking trails. I have walked the Great Glenn way and parts of the
+            West Highland Way.
           </p>
-          <a href="https://github.com/FAC9/backend-badgers-autocomplete" class="button" role="button">Show source</a>
-          <ul ul class="card__list">
-            <li class="card__list__item">HTML5</li>
-            <li class="card__list__item">CSS3</li>
-            <li class="card__list__item">JavaScript</li>
-            <li class="card__list__item">Node</li>
-            <li class="card__list__item">Tape</li>
-            <li class="card__list__item">Qunit</li>
-          </ul>
+        </div>
+        <div class="card interests__card">
+          <div class="card__title">
+            <img src="./imgs/interests/tennis_logo.png" alt="tennis_logo" />
+            <h2>Tennis</h2>
+          </div>
+          <p>
+            I love playing and watching tennis. I even had a taste of being a chair umpire.
+            when I volunteered at junior tennis tournaments.
+            One of the great gifts of living in London was to be able to attend the Wimbledon tennis tournament last year.
+            It was a dream come true!
+          </p>
+        </div>
+        <div class="card interests__card">
+          <div class="card__title">
+            <img src="./imgs/interests/english.png" alt="english_flag" />
+            <h2>English</h2>
+          </div>
+          <p>
+            Moving to the UK less than a year ago, it is still a long way to till i can master the language and
+            the pronounciation. I manly learn new words and phrases with anki cards. Every conversation helps me
+            to improve my English. Come and talk to me.
+          </p>
         </div>
       </div>
-    </div>
-  </section>
-  <!--Interests-->
-  <section class="interests" id="interests">
-    <div class="non-semantic-protector">
-      <h1 class="ribbon">
-        <strong class="ribbon-content">About me</strong>
-      </h1>
-    </div>
-    <h4>What I am up to If not coding?</h4>
-    <div class="cards">
-      <div class="card interests__card">
-        <div class="card__title">
-        <img src="./imgs/interests/meetup.png" alt="meetup_logo" />
-        <h1>Meetups</h1>
-        </div>
-        <p>
-          I love the meetups. I can't keep track of the number of meetup groups i signed up for.
-          I have already met many highly motivated people changing careers,
-          wanting to do something good or just improve their knowledge.
-        </p>
+    </section>
+    <!--Contacts-->
+    <section class="contact" id="contacts">
+      <div class="non-semantic-protector">
+        <h2 class="ribbon">
+          <strong class="ribbon-content">Contacts</strong>
+        </h2>
       </div>
-      <div class="card interests__card">
-        <div class="card__title">
-        <img src="./imgs/interests/code_your_future.png" alt="code_your_future_logo" />
-        <h1>Code Your Future</h1>
-      </div>
-        <p>
-          I have recently started volunteering for <a href="https://codeyourfuture.co/">Code Your Future</a>,
-          a coding school for refugees. They teach CSS/HTML, Javascript and backend technologies. I help them
-          to deliver their backend module.
-        </p>
-      </div>
-      <div class="card interests__card">
-        <div class="card__title">
-        <img src="./imgs/interests/volunteer.jpg" alt="volunteering_logo" />
-        <h1>Volunteering</h1>
-      </div>
-        <p>
-          Coming from a non Computer Science background, volunteering for coding related conferences gives me
-          an amzing opportunity to broaden my horizon, forge new friendships and
-          give something back to the developer community. Last year I volunteered for <a href="http://www.devoxx.co.uk/">DevoxxUK</a>
-          and <a href="https://odsc.com/london">ODSC London</a>.
-        </p>
-      </div>
-      <div class="card interests__card">
-        <div class="card__title">
-        <img src="./imgs/interests/hiking.jpg" alt="hiking_logo" />
-        <h1>Hiking</h1>
-      </div>
-        <p>
-          I fell in love with hiking when I walked the El Camino ( the French Way) in 2014.
-          I walked the the Potuguese Camino. After I moved to England, I decided to walk
-          the Scottish lonf distance hiking trails. I have walked the Great Glenn way and parts of the
-          West Highland Way.
-        </p>
-      </div>
-      <div class="card interests__card">
-        <div class="card__title">
-        <img src="./imgs/interests/tennis_logo.png" alt="tennis_logo" />
-        <h1>Tennis</h1>
-      </div>
-        <p>
-          I love playing and watching tennis. I even had a taste of being a chair umpire.
-          when I volunteered at junior tennis tournaments.
-          One of the great gifts of living in London was to be able to attend the Wimbledon tennis tournament last year.
-          It was a dream come true!
-        </p>
-      </div>
-      <div class="card interests__card">
-        <div class="card__title">
-        <img src="./imgs/interests/english.png" alt="english_flag" />
-        <h1>English</h1>
-      </div>
-        <p>
-          Moving to the UK less than a year ago, it is still a long way to till i can master the language and
-          the pronounciation. I manly learn new words and phrases with anki cards. Every conversation helps me
-          to improve my English. Come and talk to me.
-        </p>
-      </div>
-    </div>
-  </section>
-  <!--Contacts-->
-  <section class="contact" id="contacts">
-    <div class="non-semantic-protector">
-      <h1 class="ribbon">
-        <strong class="ribbon-content">Contacts</strong>
-      </h1>
-    </div>
-    <h4>Interested in working with me? Get in touch!</h4>
-    <div class="contact__icons">
-      <div class="contact__details">
+      <h4>Interested in working with me? Get in touch!</h4>
+      <div class="contact__icons">
+        <div class="contact__details">
           <a href="#"><img class="contact__icon" src="./imgs/contacts/pdf.png" alt="pdf_logo" /></a>
           <h2>CV</h2>
-      </div>
-      <div class="contact__details">
+        </div>
+        <div class="contact__details">
           <a href="#"><img class="contact__icon" src="./imgs/contacts/email.jpg" alt="email_logo" /></a>
           <h2>Email</h2>
-      </div>
-      <div class="contact__details">
+        </div>
+        <div class="contact__details">
           <a href="https://www.linkedin.com/in/n%C3%B3ra-d%C3%A9nes-1974a0112"><img class="contact__icon" src="./imgs/contacts/linkedin.jpg" alt="linkedin_logo" /></a>
           <h2>Linkedin</h2>
-      </div>
-      <div class="contact__details">
+        </div>
+        <div class="contact__details">
           <a href="https://github.com/denesnori"><img class="contact__icon" src="./imgs/contacts/github.jpg" alt="github_logo" /></a>
           <h2>GitHub</h2>
-      </div>
-      <div class="contact__details">
+        </div>
+        <div class="contact__details">
           <a href="https://www.codewars.com/users/denesnori"><img class="contact__icon" src="./imgs/contacts/codewars.jpg" alt="codewars_logo" /></a>
           <h2>Codewars</h2>
-      </div>
-      <div class="contact__details">
+        </div>
+        <div class="contact__details">
           <a href="https://twitter.com/denesnori"><img class="contact__icon" src="./imgs/contacts/twitter.jpg" alt="twitter_logo" /></a>
           <h2>Twitter</h2>
+        </div>
       </div>
-    </div>
-  </section>
-  <footer class="footer"> © Nóra Dénes All rights reserved</footer>
-</div>
-<script type="text/javascript" src="./js/main.js"> </script>
+    </section>
+    <footer class="footer"> © Nóra Dénes All rights reserved</footer>
+  </div>
+  <script type="text/javascript" src="./js/main.js"> </script>
 </body>
 </html>

@@ -1,15 +1,8 @@
 .projects{
-  background-color:#99004D;/*#B80047;/* #99004D;*/
+  background-color:#99004D;
   box-sizing: border-box;
   padding: 1rem 0;
 }
-
-/*.projects__cards{
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}*/
 
 .projects__card{
   display: flex;
@@ -22,6 +15,7 @@
 .projects__card--portrait{
   min-height: 400px;
 }
+
 .projects__card--landscape{
   min-height: 350px;
 }
@@ -39,12 +33,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .portrait{
-    max-height: 350px;
-    width:auto;
+  max-height: 350px;
+  width:auto;
   box-shadow: 0 0.5rem 0.8rem grey;
 }
 
@@ -84,11 +77,9 @@
   margin: 0.1rem;
 }
 
-
 @media screen and (max-width:680px) {
   .projects__card{
     flex-direction: column;
     max-width: 450px;
   }
-
 }
