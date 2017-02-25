@@ -3,7 +3,8 @@
 **Development in progress**
 
 ## Overview
-- create a personal webiste to host my CV, my development projects, my interests and my personal details.
+- Create a personal webiste to host my CV,  projects, interests, and contact information.
+- Built with vanilla JS, CSS, HTML.
 
 ## Testing width:
 
@@ -13,7 +14,8 @@
 **Run the tests**
 - Clone or download this repo.
 - Run ```npm install``` in your terminal.
-- Run ```npm test``` in your terminal.
+- Run ```npm postinstall``` in your terminal.
+- Run the Nightwatch tests:  ```npm test```.
 
 ## Test accesibility
-Ran code through [validator.w3](https://validator.w3.org/nu/#textare).
+Accesibility was tested with [validator.w3](https://validator.w3.org/nu/#textare).
