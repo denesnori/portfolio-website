@@ -1,27 +1,41 @@
-16:22:07.248 INFO - Launching a standalone Selenium Server
-16:22:07.274 INFO - Java: Oracle Corporation 25.111-b14
-16:22:07.274 INFO - OS: Linux 4.4.0-45-generic amd64
-16:22:07.283 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-16:22:07.333 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+00:03:15.566 INFO - Launching a standalone Selenium Server
+00:03:15.591 INFO - Java: Oracle Corporation 25.111-b14
+00:03:15.591 INFO - OS: Linux 4.4.0-45-generic amd64
+00:03:15.600 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+00:03:15.656 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-16:22:07.334 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+00:03:15.657 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-16:22:07.334 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-16:22:07.334 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-16:22:07.335 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+00:03:15.657 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+00:03:15.657 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+00:03:15.658 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-16:22:07.335 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-16:22:07.336 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-16:22:07.379 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-16:22:07.379 INFO - Selenium Server is up and running
-16:22:07.815 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
-16:22:07.824 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
-Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 7755
+00:03:15.659 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+00:03:15.659 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+00:03:15.703 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+00:03:15.703 INFO - Selenium Server is up and running
+00:03:16.133 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
+00:03:16.143 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
+Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 5489
 Only local connections are allowed.
-16:22:10.029 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
-16:22:10.047 INFO - Executing: [get: file:///home/nori/projects/portfolio-website/index.html])
-16:22:11.430 INFO - Done: [get: file:///home/nori/projects/portfolio-website/index.html]
-16:22:11.443 INFO - Executing: [get title])
-16:22:11.459 INFO - Done: [get title]
-16:22:11.465 INFO - Executing: [delete session: aa825c5b-e4d9-41fc-b903-0aea55bb8095])
-16:22:11.540 INFO - Done: [delete session: aa825c5b-e4d9-41fc-b903-0aea55bb8095]
+00:03:17.194 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
+00:03:17.212 INFO - Executing: [get: file:///home/nori/projects/portfolio-website/index.html])
+00:03:18.474 INFO - Done: [get: file:///home/nori/projects/portfolio-website/index.html]
+00:03:18.483 INFO - Executing: [find elements: By.cssSelector: body])
+00:03:18.535 INFO - Done: [find elements: By.cssSelector: body]
+00:03:18.540 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (92f9cbca4274c74f118bf9c29242aaaa)] -> css selector: body]])
+00:03:18.574 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (92f9cbca4274c74f118bf9c29242aaaa)] -> css selector: body]]
+00:03:18.579 INFO - Executing: [take screenshot])
+00:03:18.789 INFO - Done: [take screenshot]
+00:03:18.849 INFO - Executing: [get title])
+00:03:18.856 INFO - Done: [get title]
+00:03:18.865 INFO - Executing: [find element: By.cssSelector: #report-content-source])
+00:03:18.893 INFO - Done: [find element: By.cssSelector: #report-content-source]
+00:03:18.896 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on LINUX (92f9cbca4274c74f118bf9c29242aaaa)] -> css selector: #report-content-source], href])
+00:03:18.909 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on LINUX (92f9cbca4274c74f118bf9c29242aaaa)] -> css selector: #report-content-source], href]
+00:03:18.917 INFO - Executing: [find element: By.cssSelector: #report-content-online])
+00:03:18.940 INFO - Done: [find element: By.cssSelector: #report-content-online]
+00:03:18.943 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92f9cbca4274c74f118bf9c29242aaaa)] -> css selector: #report-content-online], href])
+00:03:18.955 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92f9cbca4274c74f118bf9c29242aaaa)] -> css selector: #report-content-online], href]
+00:03:18.958 INFO - Executing: [delete session: 94504a3f-c1a6-485e-b7e9-deea34bf7ea4])
+00:03:19.028 INFO - Done: [delete session: 94504a3f-c1a6-485e-b7e9-deea34bf7ea4]
