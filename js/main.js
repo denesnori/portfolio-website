@@ -9,8 +9,6 @@
     });
   };
 
-
-
 // set the speed of smooth scrolling
   function smoothScrolling(element,position,time){
     if (time<= 0) {
@@ -23,8 +21,6 @@
       smoothScrolling(element,position,time-10);
     },10);
   };
-
-
 
 // add smooth Scrolling to navbar links on click
   function addScrollingToNavLinks(){
@@ -39,8 +35,6 @@
        });
 };
 
-
-
   window.onload = function(){
     // Change the opacity of the header on scrolling
     onScroll();
@@ -48,12 +42,3 @@
     addScrollingToNavLinks();
   }
 })()
-/*function responsiveNav() {
-    var nav = document.getElementById("myTopnav");
-    console.log(nav);
-    if (nav.className === "topnav") {
-        nav.className += " responsive";
-    } else {
-        nav.className = "topnav";
-    }
-}*/
