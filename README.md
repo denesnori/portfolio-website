@@ -2,6 +2,8 @@
 
 **Development in progress**
 
+Published on github pages: https://denesnori.github.io/portfolio-website/
+
 ## Overview
 - Create a personal webiste to host my CV,  projects, interests, and contact information.
 - Built with vanilla JS, CSS, HTML.
