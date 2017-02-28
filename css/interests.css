@@ -23,7 +23,8 @@ margin: 10px;
   width: 350px;
   min-height: 250px;
   border-top: 0.75rem solid rgba(0,104,104,1) !important;
-  border-radius: 10%;
+  /*border-radius: 10%;*/
+  border-radius: 2.5rem;
 }
 
 .interests__card img{

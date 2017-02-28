@@ -12,7 +12,7 @@
 // set the speed of smooth scrolling
   function smoothScrolling(element,position,time){
     if (time<= 0) {
-      console.log(element,position,time);
+    //  console.log(element,position,time);
       return;}
     let distance = position - element.scrollTop;
     let step = distance / time *10;
