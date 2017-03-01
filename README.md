@@ -14,6 +14,9 @@ Published on github pages: https://denesnori.github.io/portfolio-website/
 
 **Run the tests**
 - Clone or download this repo.
+```
+git clone https://github.com/denesnori/portfolio-website && cd portfolio-website
+```
 - Run ```npm install``` in your terminal.
 - Run ```npm postinstall``` in your terminal.
 - Run the Nightwatch tests:  ```npm test```.
