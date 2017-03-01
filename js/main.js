@@ -26,11 +26,12 @@
   function addScrollingToNavLinks(){
        document.querySelector(".navbar__list").addEventListener("click", (e)=> {
          event.preventDefault();
-         if(e.target && e.target.nodeName == "A" && e.target.id!=="hamburger") {
+         let headerHeight=document.querySelector('.header').offsetHeight;
+         if(e.target && e.target.nodeName == "A") {
            let link = e.target;
            let target =  document.getElementById(link.getAttribute("href").slice(1));
            let element = navigator.userAgent.indexOf("Firefox") > -1 ? document.documentElement : document.body;
-           smoothScrolling(element, target.offsetTop-100, 800);
+           smoothScrolling(element, target.offsetTop-headerHeight, 800);
          }
        });
 };
