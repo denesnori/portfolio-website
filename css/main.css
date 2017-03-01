@@ -191,3 +191,8 @@ body.on-scroll .header__img{
     font-size: 1.7rem;
   }
 }
+@media screen and (max-width:680px) {
+  .container{
+    margin:10rem auto 0;
+  }
+}
