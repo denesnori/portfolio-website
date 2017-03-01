@@ -19,19 +19,25 @@ strong{
  content: "";
  position: absolute;
  display: block;
- bottom: -1em;
+ bottom:-0.92em;
+/* bottom: -1em;*/
  border: 1.5em solid #004F4F;
+/* border: 1.5em solid purple;*/
  z-index: -1;
 }
 
 .ribbon:before {
- left: -2em;
+ /*left: -2em;*/
+ left:-2em;
+ /*border-right-width: 1.5em*/
  border-right-width: 1.5em;
+
  border-left-color: transparent;
 }
 
 .ribbon:after {
  right: -2em;
+/* border-left-width: 1.5em;*/
  border-left-width: 1.5em;
  border-right-color: transparent;
 }
@@ -42,17 +48,22 @@ strong{
  display: block;
  border-style: solid;
  border-color: #006868 transparent transparent transparent;
- bottom: -1em;
+ /*border-color: orange transparent transparent transparent;*/
+ /*bottom: -1em;*/
+ bottom: -0.7em;
 }
 
 .ribbon .ribbon-content:before {
  left: 0;
- border-width: 1em 0 0 1em;
+/* border-width: 1em 0 0 1em;*/
+ border-width: 0.75em 0 0 0.75em;
+
 }
 
 .ribbon .ribbon-content:after {
  right: 0;
- border-width: 1em 1em 0 0;
+ /*border-width: 1em 1em 0 0;*/
+ border-width: 0.75em 0.75em 0 0;
 }
 
 .non-semantic-protector { position: relative; z-index: 1; }
