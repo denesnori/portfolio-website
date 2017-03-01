@@ -17,9 +17,9 @@ Published on github pages: https://denesnori.github.io/portfolio-website/
 ```
 git clone https://github.com/denesnori/portfolio-website && cd portfolio-website
 ```
-- install the dependencies
+- install the dependencies  
 ```npm install``` 
-- run the selenium-download after all node_modules have been installed:
+- run the selenium-download after all node_modules have been installed:  
 ```npm postinstall``` 
 - Run the Nightwatch tests:  
 ```npm test```
