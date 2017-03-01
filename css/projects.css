@@ -83,4 +83,15 @@
     flex-direction: column;
     max-width: 450px;
   }
+  .landscape, .portrait{
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .landscape{
+    margin-top: 1rem;
+    height: auto;
+    max-width:275px;
+  }
 }
