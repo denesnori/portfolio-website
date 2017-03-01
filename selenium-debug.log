@@ -1,69 +1,87 @@
-00:37:40.317 INFO - Launching a standalone Selenium Server
-00:37:40.344 INFO - Java: Oracle Corporation 25.111-b14
-00:37:40.345 INFO - OS: Linux 4.4.0-45-generic amd64
-00:37:40.354 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-00:37:40.407 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+16:08:43.457 INFO - Launching a standalone Selenium Server
+16:08:43.486 INFO - Java: Oracle Corporation 25.111-b14
+16:08:43.486 INFO - OS: Linux 4.4.0-45-generic amd64
+16:08:43.497 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+16:08:43.560 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-00:37:40.408 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+16:08:43.561 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-00:37:40.408 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-00:37:40.408 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-00:37:40.409 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+16:08:43.561 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:08:43.561 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:08:43.563 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-00:37:40.410 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-00:37:40.410 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-00:37:40.457 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-00:37:40.457 INFO - Selenium Server is up and running
-00:37:40.847 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
-00:37:40.856 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
-Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 7386
+16:08:43.563 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+16:08:43.564 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+16:08:43.616 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:08:43.616 INFO - Selenium Server is up and running
+16:08:44.024 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
+16:08:44.034 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
+Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 11929
 Only local connections are allowed.
-00:37:41.657 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
-00:37:41.674 INFO - Executing: [get: file:///home/nori/projects/portfolio-website/index.html])
-00:37:42.883 INFO - Done: [get: file:///home/nori/projects/portfolio-website/index.html]
-00:37:42.898 INFO - Executing: [find elements: By.cssSelector: body])
-00:37:42.950 INFO - Done: [find elements: By.cssSelector: body]
-00:37:42.955 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: body]])
-00:37:42.981 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: body]]
-00:37:42.988 INFO - Executing: [take screenshot])
-00:37:43.213 INFO - Done: [take screenshot]
-00:37:43.254 INFO - Executing: [get title])
-00:37:43.264 INFO - Done: [get title]
-00:37:43.269 INFO - Executing: [find element: By.cssSelector: #report-content-source])
-00:37:43.293 INFO - Done: [find element: By.cssSelector: #report-content-source]
-00:37:43.296 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: #report-content-source], href])
-00:37:43.305 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: #report-content-source], href]
-00:37:43.309 INFO - Executing: [find element: By.cssSelector: #report-content-online])
-00:37:43.332 INFO - Done: [find element: By.cssSelector: #report-content-online]
-00:37:43.334 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: #report-content-online], href])
-00:37:43.343 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: #report-content-online], href]
-00:37:43.348 INFO - Executing: [find element: By.cssSelector: header[class=header]])
-00:37:43.369 INFO - Done: [find element: By.cssSelector: header[class=header]]
-00:37:43.372 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: header[class=header]]])
-00:37:43.395 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: header[class=header]]]
-00:37:43.399 INFO - Executing: [find element: By.cssSelector: div[class=header__logo]])
-00:37:43.422 INFO - Done: [find element: By.cssSelector: div[class=header__logo]]
-00:37:43.425 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: div[class=header__logo]]])
-00:37:43.446 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: div[class=header__logo]]]
-00:37:43.451 INFO - Executing: [find element: By.cssSelector: h2[class=header__name]])
-00:37:43.474 INFO - Done: [find element: By.cssSelector: h2[class=header__name]]
-00:37:43.478 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: h2[class=header__name]]])
-00:37:43.500 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: h2[class=header__name]]]
-00:37:43.505 INFO - Executing: [find element: By.cssSelector: h4[class=header__title]])
-00:37:43.528 INFO - Done: [find element: By.cssSelector: h4[class=header__title]]
-00:37:43.531 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: h4[class=header__title]]])
-00:37:43.553 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: h4[class=header__title]]]
-00:37:43.556 INFO - Executing: [find element: By.cssSelector: .contact])
-00:37:43.582 INFO - Done: [find element: By.cssSelector: .contact]
-00:37:43.586 INFO - Executing: [mousemove: 7 true])
-00:37:43.617 INFO - Done: [mousemove: 7 true]
-00:37:43.628 INFO - Executing: [find element: By.cssSelector: .header])
-00:37:43.665 INFO - Done: [find element: By.cssSelector: .header]
-00:37:43.670 INFO - Executing: [get value of css property: 3 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: header[class=header]], background-color])
-00:37:43.691 INFO - Done: [get value of css property: 3 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: header[class=header]], background-color]
-00:37:43.695 INFO - Executing: [find element: By.cssSelector: .header__img])
-00:37:43.718 INFO - Done: [find element: By.cssSelector: .header__img]
-00:37:43.722 INFO - Executing: [get value of css property: 8 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: .header__img], opacity])
-00:37:43.739 INFO - Done: [get value of css property: 8 [[ChromeDriver: chrome on LINUX (963a27fa151b197890c3185832644081)] -> css selector: .header__img], opacity]
-00:37:43.743 INFO - Executing: [delete session: 2c1b6231-5a00-4b00-a015-4406de7c21bf])
-00:37:43.812 INFO - Done: [delete session: 2c1b6231-5a00-4b00-a015-4406de7c21bf]
+16:08:44.927 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Tests, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
+16:08:44.944 INFO - Executing: [get: file:///home/nori/projects/portfolio-website/index.html])
+16:08:46.888 INFO - Done: [get: file:///home/nori/projects/portfolio-website/index.html]
+16:08:46.902 INFO - Executing: [find elements: By.cssSelector: body])
+16:08:46.957 INFO - Done: [find elements: By.cssSelector: body]
+16:08:46.961 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: body]])
+16:08:46.985 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: body]]
+16:08:46.992 INFO - Executing: [take screenshot])
+16:08:47.249 INFO - Done: [take screenshot]
+16:08:47.301 INFO - Executing: [get title])
+16:08:47.308 INFO - Done: [get title]
+16:08:47.316 INFO - Executing: [find element: By.cssSelector: #report-content-source])
+16:08:47.339 INFO - Done: [find element: By.cssSelector: #report-content-source]
+16:08:47.342 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: #report-content-source], href])
+16:08:47.357 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: #report-content-source], href]
+16:08:47.374 INFO - Executing: [find element: By.cssSelector: #report-content-online])
+16:08:47.402 INFO - Done: [find element: By.cssSelector: #report-content-online]
+16:08:47.404 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: #report-content-online], href])
+16:08:47.413 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: #report-content-online], href]
+16:08:47.418 INFO - Executing: [find element: By.cssSelector: #linkedin])
+16:08:47.444 INFO - Done: [find element: By.cssSelector: #linkedin]
+16:08:47.448 INFO - Executing: [get element attribute: 3 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: #linkedin], href])
+16:08:47.457 INFO - Done: [get element attribute: 3 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: #linkedin], href]
+16:08:47.462 INFO - Executing: [find element: By.cssSelector: header[class=header]])
+16:08:47.485 INFO - Done: [find element: By.cssSelector: header[class=header]]
+16:08:47.489 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]]])
+16:08:47.511 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]]]
+16:08:47.516 INFO - Executing: [find element: By.cssSelector: h4[class=header__title]])
+16:08:47.538 INFO - Done: [find element: By.cssSelector: h4[class=header__title]]
+16:08:47.542 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: h4[class=header__title]]])
+16:08:47.564 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: h4[class=header__title]]]
+16:08:47.568 INFO - Executing: [find element: By.cssSelector: div[class=cards]])
+16:08:47.590 INFO - Done: [find element: By.cssSelector: div[class=cards]]
+16:08:47.593 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: div[class=cards]]])
+16:08:47.617 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: div[class=cards]]]
+16:08:47.622 INFO - Executing: [find element: By.cssSelector: div[class=contact__icons]])
+16:08:47.644 INFO - Done: [find element: By.cssSelector: div[class=contact__icons]]
+16:08:47.647 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: div[class=contact__icons]]])
+16:08:47.671 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: div[class=contact__icons]]]
+16:08:47.684 INFO - Executing: [find element: By.cssSelector: footer[class=footer]])
+16:08:47.706 INFO - Done: [find element: By.cssSelector: footer[class=footer]]
+16:08:47.710 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: footer[class=footer]]])
+16:08:47.732 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: footer[class=footer]]]
+16:08:47.738 INFO - Executing: [set window size])
+16:08:47.857 INFO - Done: [set window size]
+16:08:47.862 INFO - Executing: [find element: By.cssSelector: .header])
+16:08:47.906 INFO - Done: [find element: By.cssSelector: .header]
+16:08:47.911 INFO - Executing: [get value of css property: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]], display])
+16:08:47.950 INFO - Done: [get value of css property: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]], display]
+16:08:47.956 INFO - Executing: [find element: By.cssSelector: .header])
+16:08:47.970 INFO - Done: [find element: By.cssSelector: .header]
+16:08:47.974 INFO - Executing: [get value of css property: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]], background-color])
+16:08:48.002 INFO - Done: [get value of css property: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]], background-color]
+16:08:48.006 INFO - Executing: [find element: By.cssSelector: .contact])
+16:08:48.035 INFO - Done: [find element: By.cssSelector: .contact]
+16:08:48.044 INFO - Executing: [mousemove: 9 true])
+16:08:48.081 INFO - Done: [mousemove: 9 true]
+16:08:48.086 INFO - Executing: [find element: By.cssSelector: .header])
+16:08:48.098 INFO - Done: [find element: By.cssSelector: .header]
+16:08:48.101 INFO - Executing: [get value of css property: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]], background-color])
+16:08:48.111 INFO - Done: [get value of css property: 4 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: header[class=header]], background-color]
+16:08:48.115 INFO - Executing: [find element: By.cssSelector: .header__img])
+16:08:48.138 INFO - Done: [find element: By.cssSelector: .header__img]
+16:08:48.141 INFO - Executing: [get value of css property: 10 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: .header__img], opacity])
+16:08:48.157 INFO - Done: [get value of css property: 10 [[ChromeDriver: chrome on LINUX (1c4e23120f8eea360da1b85c86b3b151)] -> css selector: .header__img], opacity]
+16:08:48.160 INFO - Executing: [delete session: 1242d204-33f1-4d99-beb7-7ff3c1ce1557])
+16:08:48.228 INFO - Done: [delete session: 1242d204-33f1-4d99-beb7-7ff3c1ce1557]
