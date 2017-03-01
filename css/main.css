@@ -1,14 +1,13 @@
 .ribbon {
  font-size: 16px !important;
- /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
  width:15rem;
  max-width: 50%;
  position: relative;
  background: #008080;
  color: #fff;
  text-align: center;
- padding: 1em 2em; /* Adjust to suit */
- margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ padding: 1em 2em;
+ margin: 2em auto 3em;
 }
 
 strong{
@@ -48,21 +47,17 @@ strong{
  display: block;
  border-style: solid;
  border-color: #006868 transparent transparent transparent;
- /*border-color: orange transparent transparent transparent;*/
- /*bottom: -1em;*/
  bottom: -0.7em;
 }
 
 .ribbon .ribbon-content:before {
  left: 0;
-/* border-width: 1em 0 0 1em;*/
  border-width: 0.75em 0 0 0.75em;
 
 }
 
 .ribbon .ribbon-content:after {
  right: 0;
- /*border-width: 1em 1em 0 0;*/
  border-width: 0.75em 0.75em 0 0;
 }
 
