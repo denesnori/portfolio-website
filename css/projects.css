@@ -48,6 +48,10 @@
   box-shadow: 0 0.5rem 0.8rem grey;
 }
 
+.border{
+  border: 0.025rem solid grey;
+}
+
 .button {
   background-color: #051F59;
   border-radius: 5px;
